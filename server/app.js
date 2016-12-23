@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom/server';
 import { Provider } from 'react-redux';
 import { RouterContext, match } from 'react-router';
 
-import routes from '../app/routes.jsx';
+import routes from '../app/routes.js';
 import configureStore from '../app/store/configureStore';
 import clientConfig from '../etc/client-config.json';
 

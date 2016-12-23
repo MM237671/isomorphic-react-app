@@ -1,5 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
   devtool: 'cheap-module-eval-source-map',
@@ -17,27 +18,28 @@ module.exports = {
       'process.env.NODE_ENV': JSON.stringify('development'),
       'process.env.BROWSER': true
     }),
-    new webpack.HotModuleReplacementPlugin()
+    new ExtractTextPlugin("[name].css")
   ],
   module: {
     loaders: [
-    {
-      test: /\.js$/,
-      loader: 'babel',
-      query: {
-        presets: ["es2015", "react", "stage-0"]
+      {
+        test: /\.js$/,
+        loader: 'babel',
+        exclude: [/node_modules/, /public/]
       },
-      exclude: /node_modules/,
-      include: path.resolve(__dirname, 'client/app.js')
-    },
-    {
-      test: /\.jsx?$/,
-      loader: 'babel',
-      exclude: /node_modules/,
-      query: {
-        presets: ["es2015", "react", "stage-0"]
+      {
+        test: /\.css$/,
+        loader: ExtractTextPlugin.extract("style-loader", "css-loader!autoprefixer-loader")
+      },
+      {
+        test: /\.scss$/,
+        loader: ExtractTextPlugin.extract('style-loader','css-loader!autoprefixer-loader!sass-loader')
+      },
+      {
+        test: /\.(jpg|jpeg|gif|png|ico|ttf|otf|eot|svg|woff|woff2)(\?[a-z0-9]+)?$/,
+        loader: 'file-loader?name=[path][name].[ext]'
       }
-    }]
+    ]
   },
   node: {
     net: 'empty',

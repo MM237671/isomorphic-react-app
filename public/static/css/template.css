@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+header, nav, section, article, aside, footer {
+	display: block;
+}
+body {
+	font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
+	width: 100%;
+	background: #CCC;
+}
+a {
+	color: blue;
+	outline: none;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0 0 18px
+}
+img {
+	border: none;
+}
+input {
+	vertical-align: middle;
+}
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+    height: 100px;
+	background: #002b36;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+section {
+	width: 100%;
+	height: 1%;
+	position: relative;
+	background: #FFF;
+}
+section:after {
+	content: '';
+	clear: both;
+	display: table;
+}
+#container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+#content {
+	padding: 54px 10px 0 620px;
+}
+
+/* Sidebar Left
+-----------------------------------------------------------------------------*/
+#sideLeft {
+	float: left;
+	width: 300px;
+	margin-left: -100%;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+
+/* Sidebar Right
+-----------------------------------------------------------------------------*/
+#sideRight {
+	float: left;
+	width: 300px;
+	margin-left: -100%;
+	left: 300px;
+	position: relative;
+	margin-right: -3px;
+	margin-bottom: 10px;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	height: 50px;
+	background: #586e75;
+	color: #FFF;
+}
+
+#header .menu1 {padding: 20px 0 0 0;}
+#header .title {font-weight: 100;color: #a57800;}
+#header .menu1 a{color: #0088cc;}
+#header .menu1 a:hover {color: #999};
+#header .menu1 a:active {color: #a57800;}
+#header .logo {padding: 10px;}
+
+#footer a{color: #bbb;}
+#footer a:hover {color: #aaa};
+#footer a:active {color: #bbb;}
+#footer address.address {padding: 5px 10px 5px 5px;}
+#footer .menu2 {padding: 5px;}
