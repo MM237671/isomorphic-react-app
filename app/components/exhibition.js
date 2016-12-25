@@ -1,8 +1,5 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
-
-import config from '../../config';
 
 
 class Exhibition extends Component {
