@@ -1,4 +1,4 @@
 module.exports = {
-  staticUrl: 'http://localhost:8081/static',
-  staticHost: 'http://localhost:8050/static'
+  staticUrl: 'http://sample-env.2kubn3sris.eu-central-1.elasticbeanstalk.com/static',
+  staticHost: 'http://sample-env.2kubn3sris.eu-central-1.elasticbeanstalk.com/static'
 };
