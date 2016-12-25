@@ -1,6 +1,5 @@
 import { createStore, applyMiddleware, compose } from 'redux';
 import thunkMiddleware from 'redux-thunk';
-import { browserHistory } from 'react-router';
 
 import reducer from '../reducers/index';
 
@@ -15,4 +14,4 @@ export default function configureStore(initialState) {
   )(createStore);
   const store = finalCreateStore(reducer, initialState);
   return store;
-};
+}

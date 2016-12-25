@@ -1,6 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
-const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   devtool: 'cheap-module-eval-source-map',
@@ -18,7 +18,7 @@ module.exports = {
       'process.env.NODE_ENV': JSON.stringify('development'),
       'process.env.BROWSER': true
     }),
-    new ExtractTextPlugin("[name].css")
+    new ExtractTextPlugin('[name].css')
   ],
   module: {
     loaders: [
@@ -29,11 +29,11 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        loader: ExtractTextPlugin.extract("style-loader", "css-loader!autoprefixer-loader")
+        loader: ExtractTextPlugin.extract('style-loader', 'css-loader!autoprefixer-loader')
       },
       {
-        test: /\.scss$/,
-        loader: ExtractTextPlugin.extract('style-loader','css-loader!autoprefixer-loader!sass-loader')
+        test: /\.less$/,
+        loader: ExtractTextPlugin.extract('style-loader', 'css-loader!autoprefixer-loader!less-loader')
       },
       {
         test: /\.(jpg|jpeg|gif|png|ico|ttf|otf|eot|svg|woff|woff2)(\?[a-z0-9]+)?$/,

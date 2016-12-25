@@ -7,11 +7,12 @@ import { RouterContext, match } from 'react-router';
 
 import routes from '../app/routes.js';
 import configureStore from '../app/store/configureStore';
-import clientConfig from '../etc/client-config.json';
+import config from '../config/index';
 
+const initValues = require('./exhibitions.json');
 const app = express();
 
-app.use('/static', express.static('app/static'));
+app.use('/static', express.static('public/static'));
 
 app.use((req, res) => {
   match({ routes, location: req.url }, (error, redirectLocation, renderProps) => {
@@ -22,59 +23,67 @@ app.use((req, res) => {
     } else if (!renderProps) {
       res.send(404, 'Not found');
     } else {
-      const store = configureStore();
+      const store = configureStore(initValues);
       const componentHTML = ReactDOM.renderToString(
         <Provider store={store}>
-          <RouterContext {...renderProps}/>
+          <RouterContext {...renderProps} />
         </Provider>
       );
+
       const initialState = store.getState();
-      const metaData = {};
+      const metaData = {
+        '/': {
+          description: 'Работы художников из города Таруса',
+          title: 'Работы художников из города Таруса',
+          keywords: 'Художник,Таруса,Живопись,Графика,Эмаль,Скульптура,Батик,Ремесло,Холст,Масло,Дерево,Шелк,Роспись',
+        },
+        '/exhibition': {
+          description: 'Выставки художников из города Таруса',
+          title: 'Выставки художников из города Таруса',
+          keywords: 'Выставка,Художник,Таруса,Живопись,Графика,Эмаль,Скульптура,Батик,Ремесло,Холст,Масло,Дерево,Шелк,Роспись',
+        }
+      };
+      const metaInfo = metaData[req.originalUrl] ? metaData[req.originalUrl] : metaData['/'];
       const html = renderHTML({
         componentHTML,
         initialState,
-        metaData,
-        config : clientConfig
+        metaInfo,
+        conf: config
       });
       res.end(html);
     }
   });
 });
 
-function renderHTML({ componentHTML, initialState, metaData, config }) {
-    return `
-        <!DOCTYPE html>
-        <html>
-        <head>
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="shortcut icon" href="/static/favicon.ico"/>
-            <title>Simple</title>
-            <link rel="stylesheet" href="${config.staticUrl}/static/build/main.css">
-        </head>
-        <body>
-        <div id="app">${componentHTML}</div>
-          <script type="application/javascript">
-            window.__CONFIG__ = ${JSON.stringify(config)};
-            window.__INITIAL_STATE__ = ${JSON.stringify(initialState)};
-          </script>
-          <script type="application/javascript" src="${config.staticUrl}/static/build/main.js"></script>
-        </body>
-        </html>
-    `;
+function renderHTML({ componentHTML, initialState, metaInfo, conf }) {
+  return `
+      <!DOCTYPE html>
+      <html>
+      <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta name="description" content="${metaInfo.description}">
+          <meta name="keywords" content="${metaInfo.keywords}">
+          <meta name="author" content="Художники из города Таруса">
+          <link rel="shortcut icon" href="/static/i/cat.png"/>
+          <title>${metaInfo.title}</title>
+          <link rel="stylesheet" href="${conf.staticHost}/build/main.css">
+      </head>
+      <body>
+      <div id="app">${componentHTML}</div>
+        <script type="application/javascript">
+          window.__CONFIG__ = ${JSON.stringify(config)};
+          window.__INITIAL_STATE__ = ${JSON.stringify(initialState)};
+        </script>
+        <script type="application/javascript" src="${conf.staticHost}/build/main.js"></script>
+      </body>
+      </html>
+  `;
 }
 
-const PORT = process.env.PORT || 3000;
-if (typeof(PhusionPassenger) != 'undefined') {
-  PhusionPassenger.configure({ autoInstall: false });
-}
-
+const PORT = process.env.PORT || 8081;
 const server = require('http').createServer(app);
 
-if (typeof(PhusionPassenger) != 'undefined') {
-  server.listen('passenger');
-} else {
-  server.listen(PORT, function () {
-    console.log('Example app listening at http://localhost:%s', PORT);
-  });
-}
+server.listen(PORT, () => {
+  console.log('Example app listening at http://localhost:%s', PORT);
+});
