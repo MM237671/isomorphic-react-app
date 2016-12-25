@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header, nav, section, article, aside, footer {
+  display: block;
+}
+body {
+  font: 16px/22px Arial, Tahoma, Verdana, sans-serif;
+  width: 100%;
+  background: #CCC;
+}
+a {
+  color: blue;
+  outline: none;
+  text-decoration: underline;
+}
+a:hover {
+  text-decoration: none;
+}
+p {
+  margin: 0 0 18px
+}
+img {
+  border: none;
+}
+
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+header {
+  background: #002b36;
+}
+
+header .title {
+  font-weight: 100;
+  color: #a57800;
+}
+
+header .address {
+  color: #a57800;
+}
+
+header .nav {
+  decoration: none;
+}
+
+header a {color: #0088cc !important;}
+header a:hover {color: #999 !important;}
+header a:active {color: #a57800 !important;}
+
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+
+.wrapBlockHeader {
+  padding: 20px;
+}
+
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-start;
+      -ms-flex-pack: space-start;
+          justify-content: space-start;
+  background-color: #fff;
+}
+.wrapBlock {
+  padding: 20px;
+}
+.maxWidth40 {
+  max-width: 40%;
+  min-width: 330px;
+}
+
+
+/* Footer
+-----------------------------------------------------------------------------*/
+
+.exhibitionListItem address {
+  color: #999;
+}

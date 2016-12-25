@@ -1,0 +1,5 @@
+#!/bin/bash
+service httpd start
+
+#cd /tmp/epub/server/
+#npm install

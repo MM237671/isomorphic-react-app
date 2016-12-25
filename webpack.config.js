@@ -8,14 +8,14 @@ module.exports = {
     './client/app.js'
   ],
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'public/static/build'),
     filename: 'main.js',
     publicPath: '/static/build/'
   },
   plugins: [
     new webpack.DefinePlugin({
       __DEV__: true,
-      'process.env.NODE_ENV': JSON.stringify('development'),
+      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development'),
       'process.env.BROWSER': true
     }),
     new ExtractTextPlugin('[name].css')
