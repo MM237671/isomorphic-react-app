@@ -19,7 +19,7 @@ class Layout extends Component {
           </nav>
           <div className="wrapBlockHeader">
             <address className="address">
-              e-mail: <a href="mailto:info@remesel.ru">info@remesel.ru</a>
+              e-mail: <a href="mailto:medvedb24@yandex.ru">medvedb24@yandex.ru</a>
             </address>
           </div>
         </header>
@@ -30,7 +30,7 @@ class Layout extends Component {
               remesel.ru:&nbsp;
               <Link className="nav-link" to="/">Главная</Link>&nbsp;
               <Link className="nav-link" to="/exhibition">Выставки</Link>,&nbsp;
-              e-mail: <a href="mailto:info@remesel.ru">info@remesel.ru</a>
+              e-mail: <a href="mailto:medvedb24@yandex.ru">medvedb24@yandex.ru</a>
             </nav>
           </address>
         </footer>

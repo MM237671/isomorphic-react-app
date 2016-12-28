@@ -1,5 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
+import config from '../../config';
 
 
 class Exhibition extends Component {
@@ -9,12 +10,24 @@ class Exhibition extends Component {
         {this.props.exhibitions.map((item, key) => {
           return (
             <div key={key} className="wrapBlock exhibitionListItem">
-              <h1>{item.name}</h1>
+              <h1>{item.name}<br /><small>{item.description}</small></h1>
               <address className="address">
-                <span>{item.to}</span>&nbsp;-&nbsp;<span>{item.to}</span>&nbsp;
+                <span>C {item.from}</span>&nbsp;по&nbsp;<span>{item.to}</span><br />
                 <span>{item.address}</span>
               </address>
-              <p>{item.description}</p>
+              <ul>
+                <li>Участники: {item.artists}</li>
+                <li>Техники: {item.materials}</li>
+                <li>Фото некоторых работ:
+                  <div>
+                    {item.photos.map((p, id) => {
+                      return (
+                        <img height="100px" key={id} src={`${config.staticUrl}${p}`} alt="" />
+                      );
+                    })}
+                  </div>
+                </li>
+              </ul>
             </div>
           );
         })}
