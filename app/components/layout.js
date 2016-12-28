@@ -14,8 +14,15 @@ class Layout extends Component {
             <h1 className="title">Работы художников<br /><small>из города Таруса</small></h1>
           </div>
           <nav className="wrapBlockHeader">
-            <Link className="nav-link" to="/"><img src={`${config.staticUrl}/i/cat.png`} className="img-circle" height="80" alt="Главная" /></Link>
-            <Link className="nav-link" to="/exhibition">Выставки</Link>
+            <div className="menuHeader">
+              <div>
+                <Link className="nav-link" to="/"><img src={`${config.staticUrl}/i/cat.png`} className="img-circle" height="80" alt="Главная" /></Link>
+              </div>
+              <div>
+                <Link className="nav-link" activeClassName="active" to="/artist">Художники</Link><br />
+                <Link className="nav-link" activeClassName="active" to="/exhibition">Выставки</Link>
+              </div>
+            </div>
           </nav>
           <div className="wrapBlockHeader">
             <address className="address">

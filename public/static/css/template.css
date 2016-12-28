@@ -46,7 +46,7 @@ header .nav {
 
 header a {color: #0088cc !important;}
 header a:hover {color: #999 !important;}
-header a:active {color: #a57800 !important;}
+header .active {color: #a57800 !important;}
 
 
 .header {
@@ -59,6 +59,11 @@ header a:active {color: #a57800 !important;}
 
 .wrapBlockHeader {
   padding: 20px;
+}
+
+.menuHeader {
+  display: flex;
+  align-items: flex-end;
 }
 
 
