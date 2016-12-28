@@ -72,6 +72,15 @@ header a:active {color: #a57800 !important;}
   justify-content: space-start;
   background-color: #fff;
 }
+
+.contentExhibition {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-start;
+  background-color: #fff;
+}
+
 .wrapBlock {
   padding: 20px;
 }
@@ -83,6 +92,10 @@ header a:active {color: #a57800 !important;}
 
 /* Footer
 -----------------------------------------------------------------------------*/
+
+.exhibitionListItem {
+  max-width: 400px;
+}
 
 .exhibitionListItem address {
   color: #999;

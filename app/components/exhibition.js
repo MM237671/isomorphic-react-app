@@ -5,7 +5,7 @@ import { connect } from 'react-redux';
 class Exhibition extends Component {
   render() {
     return (
-      <section className="content">
+      <section className="contentExhibition">
         {this.props.exhibitions.map((item, key) => {
           return (
             <div key={key} className="wrapBlock exhibitionListItem">
