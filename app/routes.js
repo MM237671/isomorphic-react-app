@@ -9,7 +9,7 @@ import MainPage from './components/main';
 import Exhibition from './components/exhibition';
 import ExhibitionDetail from './components/exhibitionDetail';
 import Artists from './components/artists';
-import Artist from './components/artists';
+import Artist from './components/artistDetail';
 
 export default (
   <Router>
