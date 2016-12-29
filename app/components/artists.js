@@ -10,7 +10,7 @@ class Artists extends Component {
       <section className="contentArtists">
         {this.props.artists.map((item, key) => {
           return (
-            <div key={key} className="wrapBlock exhibitionListItem">
+            <div key={key} className="wrapBlock artistListItemText">
               <Link className="headerDetailLink" to={`/artist/${item.id}`}><h1>{item.name}</h1></Link>
               <i>{item.materials}</i>
               <img className="TextWrapLeft" width="100" src={`${config.staticUrl}${item.photo.src}`} alt={item.photo.title} title={item.photo.title} />
