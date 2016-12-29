@@ -103,6 +103,22 @@ header .active {color: #a57800 !important;}
   min-width: 330px;
 }
 
+.TextWrap {
+  clear: both;
+  float: right;
+  margin: 10px;
+}
+
+.TextWrapLeft {
+  clear: both;
+  float: left;
+  margin: 10px 10px 10px 0px;
+}
+
+.clear {
+  clear: both;
+}
+
 
 /* Footer
 -----------------------------------------------------------------------------*/
@@ -112,5 +128,10 @@ header .active {color: #a57800 !important;}
 }
 
 .exhibitionListItem address {
+  padding: 10px;
   color: #999;
+}
+
+.exhibitionListItem ul {
+  list-style: none;
 }
