@@ -70,6 +70,7 @@ function renderHTML({ componentHTML, initialState, metaInfo, conf }) {
           <meta name="description" content="${metaInfo.description}">
           <meta name="keywords" content="${metaInfo.keywords}">
           <meta name="author" content="Художники из города Таруса">
+          <meta name="yandex-verification" content="2ac2f3c613df230d" />
           <link rel="shortcut icon" href="/static/i/cat.png"/>
           <title>${metaInfo.title}</title>
           <link rel="stylesheet" href="${conf.staticHost}/build/main.css">
