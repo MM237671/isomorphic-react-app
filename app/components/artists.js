@@ -6,8 +6,17 @@ import config from '../../config';
 class Artists extends Component {
   render() {
     return (
-      <section className="contentExhibition">
-        Not complete ...
+      <section className="contentArtists">
+        {this.props.artists.map((item, key) => {
+          return (
+            <div key={key} className="wrapBlock exhibitionListItem">
+              <h1>{item.name}<br /><small>{item.description}</small></h1>
+              <div>
+                {item.materials}
+              </div>
+            </div>
+          );
+        })}
       </section>
     );
   }
@@ -15,12 +24,12 @@ class Artists extends Component {
 
 
 Artists.propTypes = {
-  exhibitions: PropTypes.array,
+  artists: PropTypes.array,
 };
 
-function mapStateToProps({ exhibitions }) {
+function mapStateToProps({ artists }) {
   return {
-    exhibitions
+    artists
   };
 }
 
@@ -29,3 +38,4 @@ function mapDispatchToProps(dispatch) {
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Artists);
+
