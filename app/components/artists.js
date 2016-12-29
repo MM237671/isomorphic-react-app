@@ -12,7 +12,7 @@ class Artists extends Component {
             <div key={key} className="wrapBlock exhibitionListItem">
               <h1>{item.name}</h1>
               <i>{item.materials}</i>
-              <img className="TextWrapLeft" width="200" src={`${config.staticUrl}${item.photo.src}`} alt={item.photo.alt} title={item.photo.title} />
+              <img className="TextWrapLeft" width="100" src={`${config.staticUrl}${item.photo.src}`} alt={item.photo.alt} title={item.photo.title} />
               <p>{item.description}</p>
             </div>
           );
