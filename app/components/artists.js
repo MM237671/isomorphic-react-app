@@ -10,10 +10,10 @@ class Artists extends Component {
         {this.props.artists.map((item, key) => {
           return (
             <div key={key} className="wrapBlock exhibitionListItem">
-              <h1>{item.name}<br /><small>{item.description}</small></h1>
-              <div>
-                {item.materials}
-              </div>
+              <h1>{item.name}</h1>
+              <i>{item.materials}</i>
+              <img className="TextWrapLeft" width="200" src={`${config.staticUrl}${item.photo.src}`} alt={item.photo.alt} title={item.photo.title} />
+              <p>{item.description}</p>
             </div>
           );
         })}

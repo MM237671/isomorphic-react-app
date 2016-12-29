@@ -11,7 +11,7 @@ class Exhibition extends Component {
           return (
             <div key={key} className="wrapBlock exhibitionListItem">
               <h1>{item.name}<br /><small>{item.description}</small></h1>
-              {item.photo != undefined && (
+              {item.photo !== undefined && (
 
                 <img className="TextWrapLeft" width="200" src={`${config.staticUrl}${item.photo.src}`} alt={item.photo.alt} title={item.photo.title} />
               )}
