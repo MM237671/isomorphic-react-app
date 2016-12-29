@@ -20,7 +20,7 @@ class Artists extends Component {
         </div>
         {item.photos.map((i, key) => {
           return (
-            <div className="wrapBlock artistListItem">
+            <div key={key} className="wrapBlock artistListItem">
               <img className="imageWithBorder" key={key} src={`${config.staticUrl}${i.src}`} alt={i.title} title={i.title} />
             </div>
           );
