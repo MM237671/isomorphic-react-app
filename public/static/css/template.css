@@ -123,6 +123,16 @@ header .active {color: #a57800 !important;}
   padding-right: 10px;
 }
 
+
+.headerDetailLink {
+  color: #999 !important;
+  text-decoration: none;
+}
+.headerDetailLink:hover {
+  color: #a57800 !important;
+  text-decoration: underline;
+}
+
 /* Footer
 -----------------------------------------------------------------------------*/
 

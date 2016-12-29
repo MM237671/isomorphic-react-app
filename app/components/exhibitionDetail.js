@@ -15,7 +15,7 @@ class ExhibitionDetail extends Component {
         <div className="wrapBlock exhibitionListItem">
           <h1>{item.name}<br /><small>{item.description}</small></h1>
           {item.photo !== undefined && (
-            <img className="TextWrapLeft" width="200" src={`${config.staticUrl}${item.photo.src}`} alt={item.photo.alt} title={item.photo.title} />
+            <img className="TextWrapLeft" width="200" src={`${config.staticUrl}${item.photo.src}`} alt={item.photo.title} title={item.photo.title} />
           )}
           <address className="address">
             <span>C {item.from}</span>&nbsp;по&nbsp;<span>{item.to}</span><br />
@@ -30,7 +30,7 @@ class ExhibitionDetail extends Component {
             <div>
               {item.photos.map((p, id) => {
                 return (
-                  <img height="100px" key={id} src={`${config.staticUrl}${p.src}`} alt={p.alt} title={p.title} />
+                  <img height="100px" key={id} src={`${config.staticUrl}${p.src}`} alt={p.title} title={p.title} />
                 );
               })}
             </div>
