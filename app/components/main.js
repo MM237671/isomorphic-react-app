@@ -10,13 +10,13 @@ class MainPage extends Component {
           <div>
             <h3 className="text-center"><em>Эмаль</em></h3>
             <div className="text-center">
-              <a href=""><img src={`${config.staticUrl}/i/enamel.jpg`} alt="enamel" /></a>
+              <a href=""><img src={`${config.staticUrl}/i/enamel.jpg`} title="Эмаль, автор - Пилипенко Михаил" alt="Эмаль, автор - Пилипенко Михаил" /></a>
             </div>
           </div>
           <div>
             <h3 className="text-center"><em>Скульптура</em></h3>
             <div className="text-center">
-              <a href=""><img src={`${config.staticUrl}/i/sculpt.jpg`} alt="sculpt" /></a>
+              <a href=""><img src={`${config.staticUrl}/i/sculpt.jpg`} title="Скульптура, автор - Пилипенко Сергей" alt="Скульптура, автор - Пилипенко Сергей" /></a>
             </div>
           </div>
         </div>
@@ -24,13 +24,13 @@ class MainPage extends Component {
           <div>
             <h3 className="text-center"><em>Живопись</em></h3>
             <div className="text-center">
-              <a href=""><img src={`${config.staticUrl}/i/paint.jpg`} alt="paint" /></a>
+              <a href=""><img src={`${config.staticUrl}/i/paint.jpg`} title="Живопись, автор - Пилипенко Михаил" alt="Живопись, автор - Пилипенко Михаил" /></a>
             </div>
           </div>
           <div>
             <h3 className="text-center"><em>Батик</em></h3>
             <div className="text-center">
-              <a href=""><img src={`${config.staticUrl}/i/batik.jpg`} alt="batik" /></a>
+              <a href=""><img src={`${config.staticUrl}/i/batik.jpg`} title="Батик, автор - Пилипенко Виктория" alt="Батик, автор - Пилипенко Виктория" /></a>
             </div>
           </div>
         </div>
