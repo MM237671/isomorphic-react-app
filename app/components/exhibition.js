@@ -1,5 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router';
 import config from '../../config';
 
 
@@ -10,7 +11,9 @@ class Exhibition extends Component {
         {this.props.exhibitions.map((item, key) => {
           return (
             <div key={key} className="wrapBlock exhibitionListItem">
-              <h1>{item.name}<br /><small>{item.description}</small></h1>
+              <Link className="headerDetailLink" to={`/exhibition/${item.id}`}>
+                <h1>{item.name}<br /><small>{item.description}</small></h1>
+              </Link>
               {item.photo !== undefined && (
 
                 <img className="TextWrapLeft" width="200" src={`${config.staticUrl}${item.photo.src}`} alt={item.photo.alt} title={item.photo.title} />
@@ -24,15 +27,6 @@ class Exhibition extends Component {
                 <li><i>Техники:</i> {item.materials}</li>
               </ul>
               <div className="clear"></div>
-              <div><i>Фото некоторых работ:</i>
-                <div>
-                  {item.photos.map((p, id) => {
-                    return (
-                      <img className="imageWithBorder" height="200px" key={id} src={`${config.staticUrl}${p.src}`} alt={p.title} title={p.title} />
-                    );
-                  })}
-                </div>
-              </div>
             </div>
           );
         })}
