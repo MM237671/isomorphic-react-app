@@ -91,6 +91,7 @@ header .active {color: #a57800 !important;}
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
+  flex-wrap: wrap;
   background-color: #fff;
 }
 
@@ -138,6 +139,10 @@ header .active {color: #a57800 !important;}
 
 .exhibitionListItem {
   max-width: 600px;
+}
+
+.artistListItem {
+  max-width: 375px;
 }
 
 .exhibitionListItem address {

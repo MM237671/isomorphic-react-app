@@ -12,12 +12,19 @@ class Artists extends Component {
 
     return (
       <section className="contentArtists">
-        <div className="wrapBlock exhibitionListItem">
+        <div className="wrapBlock artistListItem">
           <h1>{item.name}</h1>
           <i>{item.materials}</i>
           <img className="TextWrapLeft" width="100" src={`${config.staticUrl}${item.photo.src}`} alt={item.photo.title} title={item.photo.title} />
           <p>{item.description}</p>
         </div>
+        {item.photos.map((i, key) => {
+          return (
+            <div className="wrapBlock artistListItem">
+              <img className="imageWithBorder" width="375px" key={key} src={`${config.staticUrl}${i.src}`} alt={i.title} title={i.title} />
+            </div>
+          );
+        })}
       </section>
     );
   }
