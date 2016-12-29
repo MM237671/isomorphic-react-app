@@ -28,7 +28,7 @@ class Exhibition extends Component {
                 <div>
                   {item.photos.map((p, id) => {
                     return (
-                      <img height="100px" key={id} src={`${config.staticUrl}${p.src}`} alt={p.alt} title={p.title} />
+                      <img className="imageWithBorder" height="200px" key={id} src={`${config.staticUrl}${p.src}`} alt={p.title} title={p.title} />
                     );
                   })}
                 </div>

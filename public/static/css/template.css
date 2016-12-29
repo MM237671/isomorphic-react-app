@@ -119,6 +119,9 @@ header .active {color: #a57800 !important;}
   clear: both;
 }
 
+.imageWithBorder {
+  padding-right: 10px;
+}
 
 /* Footer
 -----------------------------------------------------------------------------*/
