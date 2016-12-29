@@ -9,6 +9,7 @@ import routes from '../app/routes.js';
 import configureStore from '../app/store/configureStore';
 import config from '../config/index';
 
+
 const initValues = require('./exhibitions.json');
 const app = express();
 
@@ -113,6 +114,7 @@ function renderHTML({ componentHTML, initialState, metaInfo, conf }) {
 }
 
 const PORT = process.env.PORT || 8081;
+
 const server = require('http').createServer(app);
 
 server.listen(PORT, () => {
