@@ -165,3 +165,8 @@ header .active {color: #a57800 !important;}
 .exhibitionListItem ul {
   list-style: none;
 }
+
+
+footer a {color: #0088cc !important;}
+footer a:hover {color: #555 !important;}
+footer .active {color: #a57800 !important;}
