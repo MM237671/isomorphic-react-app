@@ -35,9 +35,9 @@ class Layout extends Component {
           <address className="address">
             <nav className="wrapBlockHeader">
               remesel.ru:&nbsp;
-              <Link className="nav-link" to="/">Главная</Link>&nbsp;
-              <Link className="nav-link" to="/exhibition">Выставки</Link>&nbsp;
-              <Link className="nav-link" to="/artist">Художники</Link>&nbsp;
+              <Link className="nav-link" activeClassName="active" to="/">Главная</Link>&nbsp;
+              <Link className="nav-link" activeClassName="active" to="/exhibition">Выставки</Link>&nbsp;
+              <Link className="nav-link" activeClassName="active" to="/artist">Художники</Link>&nbsp;
               e-mail: <a href="mailto:medvedb24@yandex.ru">medvedb24@yandex.ru</a>
             </nav>
           </address>
