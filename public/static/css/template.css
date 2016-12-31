@@ -61,6 +61,7 @@ header .active {color: #a57800 !important;}
 
 .wrapBlockHeader {
   padding: 20px;
+  max-width: 80%;
 }
 
 .wrapBlockLeft {
@@ -106,9 +107,18 @@ header .active {color: #a57800 !important;}
 .wrapBlock {
   padding: 20px;
 }
+
 .maxWidth40 {
   max-width: 40%;
-  min-width: 330px;
+}
+
+@media only screen and (max-width: 640px) {
+  .wrapBlock {
+    max-width: 80%;
+  }
+  .maxWidth40 {
+    max-width: 80%;
+  }
 }
 
 .TextWrap {
@@ -132,6 +142,14 @@ header .active {color: #a57800 !important;}
   max-height: 375px;
 }
 
+@media only screen and (max-width: 640px) {
+  .imageWithBorder {
+    max-height: 280px;
+    max-width: 280px;
+  }
+}
+
+
 
 .headerDetailLink {
   color: #999 !important;
@@ -149,14 +167,6 @@ header .active {color: #a57800 !important;}
   max-width: 600px;
 }
 
-.artistListItem {
-  max-height: 375px;
-}
-
-.artistListItemText {
-  max-width: 375px;
-}
-
 .exhibitionListItem address {
   padding: 10px;
   color: #999;
@@ -165,6 +175,52 @@ header .active {color: #a57800 !important;}
 .exhibitionListItem ul {
   list-style: none;
 }
+
+
+@media only screen and (max-width: 640px) {
+  .exhibitionListItem {
+    max-width: 300px;
+  }
+}
+
+
+
+.artistListItem {
+  max-height: 375px;
+}
+
+.artistListItemText {
+  max-width: 375px;
+}
+
+@media only screen and (max-width: 640px) {
+  .artistListItemText {
+    max-width: 300px;
+  }
+}
+
+
+@media only screen and (max-width: 640px) {
+  .wrapBlock {
+    padding: 20px;
+  }
+
+  .contentArtists {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .contentExhibition {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
 
 
 footer a {color: #0088cc !important;}
