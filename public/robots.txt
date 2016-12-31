@@ -2,3 +2,4 @@ User-agent: Yandex
 Allow: /
 Disallow: /artist$
 Disallow: /exhibition$
+Host: remesel.ru
