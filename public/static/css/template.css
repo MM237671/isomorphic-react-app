@@ -31,9 +31,11 @@ header {
   background: #002b36;
 }
 
-header .title {
+.title {
+  font-size: 22px;
   font-weight: 100;
   color: #a57800;
+  padding-bottom: 20px;
 }
 
 header .address {
@@ -60,6 +62,11 @@ header .active {color: #a57800 !important;}
 .wrapBlockHeader {
   padding: 20px;
 }
+
+.wrapBlockLeft {
+  padding-left: 20px;
+}
+
 
 .menuHeader {
   display: flex;
@@ -128,7 +135,7 @@ header .active {color: #a57800 !important;}
 
 .headerDetailLink {
   color: #999 !important;
-  text-decoration: none;
+  text-decoration: underline;
 }
 .headerDetailLink:hover {
   color: #a57800 !important;

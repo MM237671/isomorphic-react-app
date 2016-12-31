@@ -11,14 +11,14 @@ class Layout extends Component {
       <div className="container">
         <header className="header">
           <div className="wrapBlockHeader">
-            <h1 className="title">Работы художников<br /><small>из города Таруса</small></h1>
+            <h3 className="title">Работы художников из города Таруса</h3>
           </div>
-          <nav className="wrapBlockHeader">
+          <nav className="wrapBlockLeft">
             <div className="menuHeader">
               <div>
                 <Link className="nav-link" to="/"><img src={`${config.staticUrl}/i/cat.png`} className="img-circle" height="80" alt="Главная" /></Link>
               </div>
-              <div>
+              <div className="wrapBlockHeader">
                 <Link className="nav-link" activeClassName="active" to="/artist">Художники</Link><br />
                 <Link className="nav-link" activeClassName="active" to="/exhibition">Выставки</Link>
               </div>
