@@ -64,6 +64,13 @@ header .active {color: #a57800 !important;}
   max-width: 80%;
 }
 
+
+.wrapBlockHeaderMenu {
+  padding: 10px;
+  max-width: 80%;
+}
+
+
 .wrapBlockLeft {
   padding-left: 20px;
 }
@@ -103,6 +110,14 @@ header .active {color: #a57800 !important;}
   background-color: #fff;
 }
 
+.contentPlaces {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #fff;
+  flex-wrap: wrap;
+  align-items: center;
+}
 
 .wrapBlock {
   padding: 20px;
@@ -174,6 +189,11 @@ header .active {color: #a57800 !important;}
 
 .exhibitionListItem ul {
   list-style: none;
+}
+
+
+.placeListItem {
+  max-width: 330px;
 }
 
 

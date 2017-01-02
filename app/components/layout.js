@@ -18,9 +18,10 @@ class Layout extends Component {
               <div>
                 <Link className="nav-link" to="/"><img src={`${config.staticUrl}/i/cat.png`} className="img-circle" height="80" alt="Главная" /></Link>
               </div>
-              <div className="wrapBlockHeader">
+              <div className="wrapBlockHeaderMenu">
                 <Link className="nav-link" activeClassName="active" to="/artist">Художники</Link><br />
-                <Link className="nav-link" activeClassName="active" to="/exhibition">Выставки</Link>
+                <Link className="nav-link" activeClassName="active" to="/exhibition">Выставки</Link><br />
+                <Link className="nav-link" activeClassName="active" to="/places">Места</Link>
               </div>
             </div>
           </nav>
@@ -34,10 +35,10 @@ class Layout extends Component {
         <footer>
           <address className="address">
             <nav className="wrapBlockHeader">
-              remesel.ru:&nbsp;
               <Link className="nav-link" activeClassName="active" to="/">Главная</Link>&nbsp;
               <Link className="nav-link" activeClassName="active" to="/exhibition">Выставки</Link>&nbsp;
               <Link className="nav-link" activeClassName="active" to="/artist">Художники</Link>&nbsp;
+              <Link className="nav-link" activeClassName="active" to="/places">Места</Link>&nbsp;
               e-mail: <a href="mailto:medvedb24@yandex.ru">medvedb24@yandex.ru</a>
             </nav>
           </address>
