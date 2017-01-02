@@ -19,6 +19,7 @@ const sitemap = sm.createSitemap({
   cacheTime: 600000,
   urls: [
     { url: '/' },
+    { url: '/places' },
     { url: '/exhibition/polenovo2016-2017',
       img: [
         {
