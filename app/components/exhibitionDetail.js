@@ -33,6 +33,12 @@ class ExhibitionDetail extends Component {
                   <img className="imageWithBorder" height="200px" key={id} src={`${config.staticUrl}${p.src}`} alt={p.title} title={p.title} />
                 );
               })}
+
+              {item.links !== undefined && item.links.map((link, linkid) => {
+                return (
+                  <a href={link.src} key={linkid} target="_blank">{link.name}</a>
+                );
+              })}
             </div>
           </div>
         </div>
