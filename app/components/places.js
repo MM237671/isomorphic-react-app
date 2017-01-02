@@ -12,12 +12,11 @@ class Places extends Component {
           return (
             <div key={key} className="wrapBlock placeListItem">
               <h3>{item.name}</h3>
+              <p>{item.description}</p>
               <address className="address">
                 <span>{item.address}</span>
               </address>
-              <a href={item.url} target="_blank">
-                <img src={item.src} alt={item.description} style={{ border: 0 }} />
-              </a>
+              <iframe id={item.address} src={item.src} width="330" height="300" frameBorder="0"></iframe>
               <div className="clear"></div>
             </div>
           );

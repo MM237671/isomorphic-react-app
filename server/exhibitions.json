@@ -289,18 +289,14 @@
     ],
     "places": [
         {
-            "url": "https://yandex.ru/maps/?um=constructor%3AZflzHpx9hWJnZ-hyoek8aNs7gAak45b5&amp;source=constructorStatic",
-            "src": "https://api-maps.yandex.ru/services/constructor/1.0/static/?sid=ZflzHpx9hWJnZ-hyoek8aNs7gAak45b5&amp;width=330&amp;height=300&amp;lang=ru_RU&amp;sourceType=constructor",
+            "src": "https://api-maps.yandex.ru/frame/v1/-/CZTOaLj2",
             "address": "Россия, Калужская область, Таруса, Октябрьская улица, 8",
-            "name": "Художественный Салон - Тарусский Сувенир.",
-            "description": "Художественный Салон Тарусский Сувенир. Здесь вы можете купить работы художников."
+            "name": "Художественный Салон - Тарусский Сувенир."
         },
         {
-            "url": "https://yandex.ru/maps/?um=constructor%3A_tZciv7qrHzYOpRVD-3_AjRd3oGADShM&amp;source=constructorStatic",
-            "src": "https://api-maps.yandex.ru/services/constructor/1.0/static/?sid=_tZciv7qrHzYOpRVD-3_AjRd3oGADShM&amp;width=330&amp;height=300&amp;lang=ru_RU&amp;sourceType=constructor",
+            "src": "https://api-maps.yandex.ru/frame/v1/-/CZTOaE06",
             "address": "Россия, Москва, улица Арбат, 21с1",
-            "name": "Художественный Салон на Арбате.",
-            "description": "Художественный Салон на Арбате. Здесь вы можете купить работы художников."
+            "name": "Художественный Салон на Арбате."
         }
     ]
 }
