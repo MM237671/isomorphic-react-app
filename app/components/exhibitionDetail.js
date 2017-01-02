@@ -28,7 +28,7 @@ class ExhibitionDetail extends Component {
           <div className="clear"></div>
           <div><i>Фото некоторых работ:</i>
             <div>
-              {item.photos.map((p, id) => {
+              {(item.photos || []).map((p, id) => {
                 return (
                   <img className="imageWithBorder" height="200px" key={id} src={`${config.staticUrl}${p.src}`} alt={p.title} title={p.title} />
                 );

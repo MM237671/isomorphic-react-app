@@ -20,6 +20,7 @@ const sitemap = sm.createSitemap({
   urls: [
     { url: '/' },
     { url: '/places' },
+    { url: '/exhibition/kaluga-Chuprun-2016' },
     { url: '/exhibition/polenovo2016-2017',
       img: [
         {
@@ -161,6 +162,10 @@ app.use((req, res) => {
         '/exhibition/polenovo2016-2017': {
           description: 'Выставка - Художественные династии России - Поленово - Художники Ростемберская, Пилипенко',
           title: 'Художественные династии России - Семья Художников Ростемберских - Пилипенко'
+        },
+        '/exhibition/kaluga-Chuprun-2016': {
+          description: 'Выставка памяти Владимира Чупруна',
+          title: 'Выставка памяти Владимира Чупруна'
         },
         '/artist/PilipenkoTonya': {
           description: 'Живопись акварель/пастель, Художники Тарусы, Пилипенко Антонина',
