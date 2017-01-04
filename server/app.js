@@ -211,6 +211,7 @@ function renderHTML({ componentHTML, initialState, metaInfo, conf }) {
           <meta name='author' content='Художники из города Таруса'>
           <meta name='yandex-verification' content='2ac2f3c613df230d' />
           <meta name="yandex-verification" content="bcc658cda643d1c2" />
+          <meta name="yandex-verification" content="7b98854cc3a57aa9" />
           <link rel='shortcut icon' href='/static/i/cat.ico'/>
           <title>${metaInfo.title}</title>
           <link rel='stylesheet' href='${conf.staticHost}/build/main.css'>
