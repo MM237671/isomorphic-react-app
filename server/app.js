@@ -44,35 +44,35 @@ const sitemap = sm.createSitemap({
     { url: '/artist/PilipenkoTonya',
       img: [
         {
-          url: '/works/tonya/Дом у реки_бум,акв_20x27_2008.JPG',
+          url: '/static/works/tonya/Дом у реки_бум,акв_20x27_2008.JPG',
           caption: 'Дом у реки - бумага/акварель, Пилипенко Антонина'
         },
         {
-          url: '/works/tonya/Изумрудные деревья_бум,акв_31х42,2_2012.jpg',
+          url: '/static/works/tonya/Изумрудные деревья_бум,акв_31х42,2_2012.jpg',
           caption: 'Изумрудные деревья - бумага/акварель, Пилипенко Антонина'
         },
         {
-          url: '/works/tonya/Отражение_бум, акв_19,3х29,5_Суздаль2014.jpg',
+          url: '/static/works/tonya/Отражение_бум, акв_19,3х29,5_Суздаль2014.jpg',
           caption: 'Отражение - бумага/акварель, Пилипенко Антонина'
         },
         {
-          url: '/works/tonya/Половодье на Таруске_бум,акв,пастель_25,9х41,2_2010.jpg',
+          url: '/static/works/tonya/Половодье на Таруске_бум,акв,пастель_25,9х41,2_2010.jpg',
           caption: 'Половодье на Таруске - бумага/акварель, Пилипенко Антонина'
         },
         {
-          url: '/works/tonya/Свежий снег_бум,акв,гуашь_33,3х41_2011.JPG',
+          url: '/static/works/tonya/Свежий снег_бум,акв,гуашь_33,3х41_2011.JPG',
           caption: 'Свежий снег - бумага/акварель, Пилипенко Антонина'
         },
         {
-          url: '/works/tonya/Тихий вечер_бум,акв_32х24_Суздаль2011.jpg',
+          url: '/static/works/tonya/Тихий вечер_бум,акв_32х24_Суздаль2011.jpg',
           caption: 'Тихий вечер - бумага/акварель, Пилипенко Антонина'
         },
         {
-          url: '/works/tonya/Японский натюрморт_бум,акв_2010.jpg',
+          url: '/static/works/tonya/Японский натюрморт_бум,акв_2010.jpg',
           caption: 'Японский натюрморт - бумага/акварель, Пилипенко Антонина'
         },
         {
-          url: '/works/tonya/2016-07-03 14-26-08.JPG',
+          url: '/static/works/tonya/2016-07-03 14-26-08.JPG',
           caption: 'Белые цветы - бумага/акварель, Пилипенко Антонина'
         }
       ]
@@ -80,37 +80,68 @@ const sitemap = sm.createSitemap({
     { url: '/artist/PilipenkoMihail',
       img: [
         {
-          url: '/works/miha/IMG_1970.JPG',
-          caption: 'Домик художников И.Старженецкой и А.Комелина, холст/масло, Пилипенко Михаил'
+          url: '/static/works/miha/IMG_1970.JPG',
+          caption: 'Домик художников И.Старженецкой и А.Камелина, холст/масло, Пилипенко Михаил'
         },
         {
-          url: '/works/miha/IMG_1971.JPG',
+          url: '/static/works/miha/IMG_1971.JPG',
           caption: 'Снег выпал, холст/масло, Пилипенко Михаил'
         },
         {
-          url: '/works/miha/IMG_1972.JPG',
+          url: '/static/works/miha/IMG_1972.JPG',
           caption: 'Зимние деревья, холст/масло, Пилипенко Михаил'
         },
         {
-          url: '/works/miha/IMG_1973.JPG',
+          url: '/static/works/miha/IMG_1973.JPG',
           caption: 'Осеннее утро, холст/масло, Пилипенко Михаил'
         },
         {
-          url: '/works/miha/IMG_1974.JPG',
+          url: '/static/works/miha/IMG_1974.JPG',
           caption: 'Погода меняется, холст/масло, Пилипенко Михаил'
         },
         {
-          url: '/works/miha/IMG_1975.JPG',
+          url: '/static/works/miha/IMG_1975.JPG',
           caption: 'Вечереет, холст/масло, Пилипенко Михаил'
         },
         {
-          url: '/works/miha/IMG_1976.JPG',
+          url: '/static/works/miha/IMG_1976.JPG',
           caption: 'Первый снег, холст/масло, Пилипенко Михаил'
         }
       ]
     },
     { url: '/artist/PilipenkoViktoriya' },
-    { url: '/artist/PilipenkoSergey' },
+    { url: '/artist/PilipenkoSergey',
+      img: [
+        {
+          url: '/static/works/sergey/IMG_0966.JPG',
+          caption: 'Кот на прогулке - шкатулка, дерево/тонировка, автор Пилипенко Сергей'
+        },
+        {
+          url: '/static/works/sergey/IMG_0966.JPG',
+          caption: 'В траве сидел кузнечик - комодик, дерево/тонировка, автор Пилипенко Сергей'
+        },
+        {
+          url: '/static/works/sergey/IMG_1042.JPG',
+          caption: 'Заяц в тюльпанах - комодик, дерево/тонировка, автор Пилипенко Сергей'
+        },
+        {
+          url: '/static/works/sergey/IMG_1555.JPG',
+          caption: 'Под небом голубым - лавка, дерево/тонировка, автор Пилипенко Сергей'
+        },
+        {
+          url: '/static/works/sergey/IMG_1832.JPG',
+          caption: 'Наш рыжий кот которому везет - комодик, дерево/тонировка, автор Пилипенко Сергей'
+        },
+        {
+          url: '/static/works/sergey/IMG_1957.JPG',
+          caption: 'Огне-гривый лев - комодик, дерево/тонировка, автор Пилипенко Сергей'
+        },
+        {
+          url: '/static/works/sergey/IMG_2036.JPG',
+          caption: 'По рассказу Куприна Олеся - комод, дерево/тонировка, автор Пилипенко Сергей'
+        }
+      ]
+     },
     { url: '/artist/RostemberskayaGalina' }
   ]
 });
