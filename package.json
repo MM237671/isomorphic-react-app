@@ -31,7 +31,7 @@
     "react-router": "^2.4.0",
     "react-router-redux": "^4.0.4",
     "redux": "^3.5.2",
-    "sitemap": "1.8.2"
+    "sitemap": "OmJan/sitemap.js#google-img-tags"
   },
   "devDependencies": {
     "autoprefixer-loader": "*",
