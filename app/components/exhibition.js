@@ -26,6 +26,7 @@ class Exhibition extends Component {
                 <li><i>Участники:</i> {item.artists}</li>
                 <li><i>Техники:</i> {item.materials}</li>
               </ul>
+              <p><br /><Link to={`/exhibition/${item.id}`}>Посмотреть фотографии с выставки >></Link></p>
               <div className="clear"></div>
             </div>
           );
