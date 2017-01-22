@@ -24,6 +24,7 @@
     "express": "^4.13.4",
     "install": "0.8.4",
     "isomorphic-fetch": "^2.2.1",
+    "lodash": "4.17.4",
     "npm": "4.0.5",
     "react": "^15.0.2",
     "react-dom": "^15.0.2",

@@ -50,14 +50,12 @@ header a {color: #0088cc !important;}
 header a:hover {color: #999 !important;}
 header .active {color: #a57800 !important;}
 
-
 .header {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-between;
 }
-
 
 .wrapBlockHeader {
   padding: 20px;
@@ -80,8 +78,6 @@ header .active {color: #a57800 !important;}
   display: flex;
   align-items: flex-end;
 }
-
-
 
 /* Middle
 -----------------------------------------------------------------------------*/
@@ -157,14 +153,22 @@ header .active {color: #a57800 !important;}
   max-height: 375px;
 }
 
+.imageWithBorderMazaika {
+  max-height: 160px;
+}
+
+.mozaikaItemFlex {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+
 @media only screen and (max-width: 640px) {
   .imageWithBorder {
     max-height: 280px;
     max-width: 280px;
   }
 }
-
-
 
 .headerDetailLink {
   color: #999 !important;
@@ -204,6 +208,17 @@ header .active {color: #a57800 !important;}
 }
 
 
+.mozaikaFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background-color: #fff;
+  max-width: 375px;
+}
+
+
 
 .artistListItem {
   max-height: 375px;
@@ -216,6 +231,10 @@ header .active {color: #a57800 !important;}
 @media only screen and (max-width: 640px) {
   .artistListItemText {
     max-width: 300px;
+  }
+
+  .imageWithBorderMazaika {
+    max-width: 120px;
   }
 }
 
