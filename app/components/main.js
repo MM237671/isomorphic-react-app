@@ -61,13 +61,13 @@ class MainPage extends Component {
           <div>
             <h3 className="text-center"><em>Живопись</em></h3>
             <div className="text-center">
-              <a href=""><img src={`${config.staticUrl}/i/paint.jpg`} title="Живопись, автор - Пилипенко Михаил" alt="Живопись, автор - Пилипенко Михаил" /></a>
+              <img onClick={this.onClickImage.bind(null, `${config.staticUrl}/i/paint.jpg`)} src={`${config.staticUrl}/i/paint.jpg`} title="Живопись, автор - Пилипенко Михаил" alt="Живопись, автор - Пилипенко Михаил" />
             </div>
           </div>
           <div>
             <h3 className="text-center"><em>Батик</em></h3>
             <div className="text-center">
-              <a href=""><img src={`${config.staticUrl}/i/batik.jpg`} title="Батик, автор - Пилипенко Виктория" alt="Батик, автор - Пилипенко Виктория" /></a>
+              <img onClick={this.onClickImage.bind(null, `${config.staticUrl}/i/batik.jpg`})} src={`${config.staticUrl}/i/batik.jpg`} title="Батик, автор - Пилипенко Виктория" alt="Батик, автор - Пилипенко Виктория" />
             </div>
           </div>
         </div>
