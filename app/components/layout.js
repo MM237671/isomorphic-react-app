@@ -27,7 +27,8 @@ class Layout extends Component {
           </nav>
           <div className="wrapBlockHeader">
             <address className="address">
-              e-mail: <a href="mailto:medvedb24@yandex.ru">medvedb24@yandex.ru</a>
+              e-mail: <a href="mailto:medvedb24@yandex.ru">medvedb24@yandex.ru</a><br />
+              instagram: <a href="https://instagram.com/pilipenkomikhail5180" target="_blank">@pilipenkomikhail5180</a>
             </address>
           </div>
         </header>
@@ -39,7 +40,8 @@ class Layout extends Component {
               <Link className="nav-link" activeClassName="active" to="/exhibition">Выставки</Link>&nbsp;
               <Link className="nav-link" activeClassName="active" to="/artist">Художники</Link>&nbsp;
               <Link className="nav-link" activeClassName="active" to="/places">Места</Link>&nbsp;
-              e-mail: <a href="mailto:medvedb24@yandex.ru">medvedb24@yandex.ru</a>
+              e-mail: <a href="mailto:medvedb24@yandex.ru">medvedb24@yandex.ru</a>&nbsp;
+              instagram: <a href="https://instagram.com/pilipenkomikhail5180" target="_blank">@pilipenkomikhail5180</a>
             </nav>
           </address>
         </footer>
