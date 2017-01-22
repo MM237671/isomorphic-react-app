@@ -1,22 +1,59 @@
 import React, { Component } from 'react';
 import config from '../../config';
-
+import Lightbox from './helpers/lightbox';
 
 class MainPage extends Component {
+  constructor(props) {
+    super(props);
+    this.onClickImage = this.onClickImage.bind(this);
+    this.onCloseLightBox = this.onCloseLightBox.bind(this);
+    this.state = {
+      lightbox: false,
+      images: [
+        `${config.staticUrl}/i/enamel.jpg`,
+        `${config.staticUrl}/i/sculpt.jpg`,
+        `${config.staticUrl}/i/paint.jpg`,
+        `${config.staticUrl}/i/batik.jpg`
+      ]
+    };
+  }
+
+  onClickImage = (img) => {
+    this.setState({
+      lightbox: img
+    });
+  }
+
+  onCloseLightBox = () => {
+    this.setState({
+      lightbox: false
+    });
+  }
+
   render() {
+    const { lightbox } = this.state;
+    const lightboxElement = lightbox ? (
+      <Lightbox
+        images={this.state.images}
+        startIndex={this.state.images.indexOf(lightbox)}
+        onCloseRequest={this.onCloseLightBox}
+      />
+    ) : null;
+
     return (
       <section className="content">
+        {lightboxElement}
         <div className="wrapBlock">
           <div>
             <h3 className="text-center"><em>Эмаль</em></h3>
             <div className="text-center">
-              <a href=""><img src={`${config.staticUrl}/i/enamel.jpg`} title="Эмаль, автор - Пилипенко Михаил" alt="Эмаль, автор - Пилипенко Михаил" /></a>
+              <a href="" onClick={this.onClickImage.bind(null, `${config.staticUrl}/i/enamel.jpg`)}><img src={`${config.staticUrl}/i/enamel.jpg`} title="Эмаль, автор - Пилипенко Михаил" alt="Эмаль, автор - Пилипенко Михаил" /></a>
             </div>
           </div>
           <div>
             <h3 className="text-center"><em>Скульптура</em></h3>
             <div className="text-center">
-              <a href=""><img src={`${config.staticUrl}/i/sculpt.jpg`} title="Скульптура, автор - Пилипенко Сергей" alt="Скульптура, автор - Пилипенко Сергей" /></a>
+              <a href="" onClick={this.onClickImage.bind(null, `${config.staticUrl}/i/sculpt.jpg`)}><img src={`${config.staticUrl}/i/sculpt.jpg`} title="Скульптура, автор - Пилипенко Сергей" alt="Скульптура, автор - Пилипенко Сергей" /></a>
             </div>
           </div>
         </div>
