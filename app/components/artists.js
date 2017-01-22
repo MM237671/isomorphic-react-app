@@ -15,6 +15,7 @@ class Artists extends Component {
               <i>{item.materials}</i>
               <img className="TextWrapLeft" width="100" src={`${config.staticUrl}${item.photo.src}`} alt={item.photo.title} title={item.photo.title} />
               <p>{item.description}</p>
+              <p><Link to={`/artist/${item.id}`}>Фотографии работ >></Link></p>
             </div>
           );
         })}
