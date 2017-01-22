@@ -1,0 +1,16 @@
+{
+  "hostname": "http://remesel.ru",
+  "cacheTime": 600000,
+  "urls": [
+    { "url": "/" },
+    { "url": "/places" },
+    { "url": "/exhibition/kalugaDomMasterov022017" },
+    { "url": "/exhibition/kaluga-Chuprun-2016" },
+    { "url": "/exhibition/polenovo2016-2017" },
+    { "url": "/artist/PilipenkoTonya" },
+    { "url": "/artist/PilipenkoMihail" },
+    { "url": "/artist/PilipenkoViktoriya" },
+    { "url": "/artist/PilipenkoSergey" },
+    { "url": "/artist/RostemberskayaGalina" }
+  ]
+}
