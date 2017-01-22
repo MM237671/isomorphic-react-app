@@ -67,7 +67,7 @@ class MainPage extends Component {
           <div>
             <h3 className="text-center"><em>Батик</em></h3>
             <div className="text-center">
-              <img onClick={this.onClickImage.bind(null, `${config.staticUrl}/i/batik.jpg`})} src={`${config.staticUrl}/i/batik.jpg`} title="Батик, автор - Пилипенко Виктория" alt="Батик, автор - Пилипенко Виктория" />
+              <img onClick={this.onClickImage.bind(null, `${config.staticUrl}/i/batik.jpg`)} src={`${config.staticUrl}/i/batik.jpg`} title="Батик, автор - Пилипенко Виктория" alt="Батик, автор - Пилипенко Виктория" />
             </div>
           </div>
         </div>
