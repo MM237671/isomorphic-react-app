@@ -19,7 +19,7 @@ const app = express();
 
 const sitemap = sm.createSitemap(sitemapData);
 const sitemapYandex = sm.createSitemap(sitemapYandexData);
-
+const page404 = render404({ conf: config });
 
 app.get('/sitemap.xml', (req, res) => {
   sitemap.toXML((err, xml) => {
@@ -47,7 +47,7 @@ app.use((req, res) => {
     } else if (error) {
       res.status(500).send(error.message);
     } else if (!renderProps) {
-      res.status(404).send(render404({ conf: config }));
+      res.status(404).send(page404);
     } else {
       const store = configureStore(initValues);
       const componentHTML = ReactDOM.renderToString(
