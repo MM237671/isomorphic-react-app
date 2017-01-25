@@ -47,7 +47,7 @@ app.use((req, res) => {
     } else if (error) {
       res.status(500).send(error.message);
     } else if (!renderProps) {
-      res.status(404).send('Not found');
+      res.status(404).send(render404({ conf: config }));
     } else {
       const store = configureStore(initValues);
       const componentHTML = ReactDOM.renderToString(
@@ -92,6 +92,44 @@ function renderHTML({ componentHTML, initialState, metaInfo, conf }) {
           window.__INITIAL_STATE__ = ${JSON.stringify(initialState)};
         </script>
         <script type='application/javascript' src='${conf.staticHost}/build/main.js'></script>
+      </body>
+      </html>
+  `;
+}
+
+
+function render404({ conf }) {
+  return `
+      <!DOCTYPE html>
+      <html>
+      <head>
+          <meta charset='utf-8'>
+          <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+          <meta name='description' content='Художники Тарусы'>
+          <meta name='author' content='Художники из города Таруса'>
+          <meta name='yandex-verification' content='2ac2f3c613df230d' />
+          <meta name="yandex-verification" content="bcc658cda643d1c2" />
+          <meta name="yandex-verification" content="7b98854cc3a57aa9" />
+          <link rel='shortcut icon' href='/static/i/cat.ico'/>
+          <title>remesel.ru Художники Тарусы Страница не найдена</title>
+          <link rel='stylesheet' href='${conf.staticHost}/build/main.css'>
+      </head>
+      <body>
+      <div id='app' class='content404'>
+        <div>
+          <h1>404</h1>
+          <div>
+            <div>
+              <a href="/"><img src='${conf.staticUrl}/i/cat.png' className="img-circle" height="80" alt="Главная" /></a>
+            </div>
+            <div>
+              <a href="/artist">Художники</a><br />
+              <a href="/exhibition">Выставки</a><br />
+              <a href="/places">Места</a>
+            </div>
+          </div>
+        </div>
+      </div>
       </body>
       </html>
   `;
