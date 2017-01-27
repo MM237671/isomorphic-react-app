@@ -11,7 +11,7 @@ class Layout extends Component {
       <div className="container">
         <header className="header">
           <div className="wrapBlockHeader">
-            <h3 className="title">Работы художников из города Таруса</h3>
+            <h3 className="title">Художники из города Таруса</h3>
           </div>
           <nav className="wrapBlockLeft">
             <div className="menuHeader">

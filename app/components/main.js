@@ -75,7 +75,7 @@ class MainPage extends Component {
         </div>
         <div className="wrapBlock maxWidth40">
           <div id="content">
-            <h1 className="title">Работы художников из города Таруса</h1>
+            <h1 className="title">Художники из города Таруса</h1>
             <p>На сайте представлены <Link to="/artist">фотографии работ</Link> и информация о <Link to="/exhibition">выставках.</Link> Художники работают в разных техниках:</p>
             <dl className="dl-horizontal">
               <dt>Пилипенко Виктория</dt><dd>батик (роспись по шелку)</dd>
