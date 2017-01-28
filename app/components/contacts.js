@@ -12,7 +12,7 @@ class Contacts extends Component {
             <dt>E-mail:</dt>
             <dd><a href="mailto:medvedb24@yandex.ru">medvedb24@yandex.ru</a></dd>
             <dt>Пилипенко Михаил (instagram):</dt><dd><a href="https://instagram.com/pilipenkomikhail5180" target="_blank">@pilipenkomikhail5180</a></dd>
-            <dt>Пилипенко Сергей (instagram):</dt><dd><a href="https://instagram.com/pilipenkomikhail5180" target="_blank">@pilipenkomikhail5180</a></dd>
+            <dt>Пилипенко Сергей (instagram):</dt><dd><a href="https://instagram.com/pilipenko5765" target="_blank">@pilipenko5765</a></dd>
           </dl>
         </div>
       </section>
