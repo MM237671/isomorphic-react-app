@@ -15,8 +15,8 @@ class Places extends Component {
               <p>{item.description}</p>
               <address className="address">
                 <span>{item.address}</span>
-              </address>
-              <iframe id={item.address} src={item.src} width="330" height="300" frameBorder="0"></iframe>
+              </address><br />
+              <img src={`${config.staticUrl}${item.src}`} alt={item.address} title={item.address} />
               <div className="clear"></div>
             </div>
           );

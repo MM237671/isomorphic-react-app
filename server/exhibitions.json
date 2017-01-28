@@ -370,22 +370,26 @@
     ],
     "places": [
         {
-            "src": "https://api-maps.yandex.ru/frame/v1/-/CZTOaLj2",
+            "src": "/maps/suvenir.png",
+            "url": "https://yandex.ru/maps/?z=19&ll=37.17917500000002,54.72946799999509&l=map&rl=&origin=jsapi_2_1_47&from=api-maps",
             "address": "Россия, Калужская область, Таруса, Октябрьская улица, 8",
             "name": "Художественный Салон - Тарусский Сувенир."
         },
         {
-            "src": "https://api-maps.yandex.ru/frame/v1/-/CZTOaE06",
+            "src": "/maps/arbat.png",
+            "url": "https://yandex.ru/maps/213/moscow/?z=19&ll=37.595779%2C55.75050603015683&l=map&text=%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%2C%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C%20%D1%83%D0%BB%D0%B8%D1%86%D0%B0%20%D0%90%D1%80%D0%B1%D0%B0%D1%82%2C%2021%D1%811&origin=jsapi_2_1_47&from=api-maps&mode=search&sll=37.595779%2C55.750506&sspn=0.002014%2C0.000885&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fll%3D37.596%252C55.751%26spn%3D0.001%252C0.001%26text%3D%25D0%25A0%25D0%25BE%25D1%2581%25D1%2581%25D0%25B8%25D1%258F%252C%2520%25D0%259C%25D0%25BE%25D1%2581%25D0%25BA%25D0%25B2%25D0%25B0%252C%2520%25D1%2583%25D0%25BB%25D0%25B8%25D1%2586%25D0%25B0%2520%25D0%2590%25D1%2580%25D0%25B1%25D0%25B0%25D1%2582%252C%252021%25D1%25811",
             "address": "Россия, Москва, улица Арбат, 21с1",
             "name": "Художественный Салон на Арбате."
         },
         {
-            "src": "https://api-maps.yandex.ru/frame/v1/-/CZTceM2Q",
+            "src": "/maps/galery.png",
+            "url": "https://yandex.ru/maps/20208/tarusa/?z=19&ll=37.18067899999999%2C54.7292069999951&l=map&origin=jsapi_2_1_47&from=api-maps",
             "address": "Россия, Калужская область, Таруса, пл. Ленина, 1а",
             "name": "Картинная галерея г. Таруса. Музей выставочный центр"
         },
         {
-            "src": "https://api-maps.yandex.ru/frame/v1/-/CZTceZMW",
+            "src": "/maps/muzey.png",
+            "url": "https://yandex.ru/maps/20208/tarusa/?z=19&ll=37.17834700000001%2C54.726500999995096&l=map&origin=jsapi_2_1_47&from=api-maps",
             "address": "Калужская область, Таруса, улица Энгельса, 4",
             "name": "Музейно-краеведческий центр Дом Позняковых"
         }
