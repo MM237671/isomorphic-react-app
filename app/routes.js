@@ -11,6 +11,7 @@ import ExhibitionDetail from './components/exhibitionDetail';
 import Artists from './components/artists';
 import Artist from './components/artistDetail';
 import Places from './components/places';
+import Contacts from './components/contacts';
 
 export default (
   <Router>
@@ -22,6 +23,7 @@ export default (
       <Route path="/exhibition" component={Exhibition} />
       <Route path="/exhibition/:id" component={ExhibitionDetail} />
       <Route path="/places" component={Places} />
+      <Route path="/contacts" component={Contacts} />
     </Route>
   </Router>
 );

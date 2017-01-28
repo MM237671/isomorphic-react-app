@@ -25,6 +25,16 @@ img {
   border: none;
 }
 
+
+dd {
+  font-style: italic;
+  margin-left: 1em;
+}
+dt {
+  margin-top: 1em;
+}
+
+
 /* Header
 -----------------------------------------------------------------------------*/
 header {
@@ -171,7 +181,7 @@ header .active {color: #a57800 !important;}
 }
 
 .headerDetailLink {
-  color: #999 !important;
+  color: #a57800 !important;
   text-decoration: underline;
 }
 .headerDetailLink:hover {

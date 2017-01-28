@@ -3,6 +3,7 @@
   "cacheTime": 600000,
   "urls": [
     { "url": "/" },
+    { "url": "/contacts" },
     { "url": "/places" },
     { "url": "/exhibition/kalugaDomMasterov022017" },
     { "url": "/exhibition/kaluga-Chuprun-2016" },

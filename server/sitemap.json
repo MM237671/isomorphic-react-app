@@ -4,6 +4,7 @@
   "urls": [
     { "url": "/" },
     { "url": "/places" },
+    { "url": "/contacts" },
     { "url": "/exhibition/kalugaDomMasterov022017" },
     { "url": "/exhibition/kaluga-Chuprun-2016" },
     { "url": "/exhibition/polenovo2016-2017",
