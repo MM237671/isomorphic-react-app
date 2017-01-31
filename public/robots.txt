@@ -6,13 +6,6 @@ Disallow: /artist$
 Disallow: /exhibition$
 sitemap: http://remesel.ru/sitemapYandex.xml
 
-User-agent: YandexImages
-Allow: /
-Disallow: /artist$
-Disallow: /exhibition$
-sitemap: http://remesel.ru/sitemap.xml
-
-
 User-agent: Googlebot
 Allow: /
 Disallow: /artist$
