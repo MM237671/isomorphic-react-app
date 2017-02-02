@@ -1,13 +1,13 @@
 Host: remesel.ru
+sitemap: http://remesel.ru/sitemap.xml
 
 User-agent: Yandex
 Allow: /
 Disallow: /artist$
 Disallow: /exhibition$
-sitemap: http://remesel.ru/sitemapYandex.xml
 
 User-agent: Googlebot
 Allow: /
 Disallow: /artist$
 Disallow: /exhibition$
-sitemap: http://remesel.ru/sitemap.xml
+
