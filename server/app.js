@@ -12,13 +12,11 @@ import config from '../config/index';
 const sm = require('sitemap');
 const initValues = require('./exhibitions.json');
 const sitemapData = require('./sitemap.json');
-const sitemapYandexData = require('./sitemapYandex.json');
 const metaData = require('./metaData.json');
 const app = express();
 
 
 const sitemap = sm.createSitemap(sitemapData);
-const sitemapYandex = sm.createSitemap(sitemapYandexData);
 const page404 = render404({ conf: config });
 
 app.get('/sitemap.xml', (req, res) => {
@@ -30,15 +28,7 @@ app.get('/sitemap.xml', (req, res) => {
     res.send(xml);
   });
 });
-app.get('/sitemapYandex.xml', (req, res) => {
-  sitemapYandex.toXML((err, xml) => {
-    if (err) {
-      return res.status(500).end();
-    }
-    res.header('Content-Type', 'application/xml');
-    res.send(xml);
-  });
-});
+
 app.use('/static', express.static('public/static'));
 app.use((req, res) => {
   match({ routes, location: req.url }, (error, redirectLocation, renderProps) => {
