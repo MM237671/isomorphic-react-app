@@ -67,6 +67,7 @@ function renderHTML({ componentHTML, initialState, metaInfo, conf }) {
           <meta charset='utf-8'>
           <meta name='viewport' content='width=device-width, initial-scale=1.0'>
           <meta name='description' content='${metaInfo.description}'>
+          <meta name='keywords' content='Художники из Тарусы, Пилипенко, Ростемберская'>
           <meta name='author' content='Художники из города Таруса'>
           <meta name='yandex-verification' content='2ac2f3c613df230d' />
           <meta name="yandex-verification" content="bcc658cda643d1c2" />
