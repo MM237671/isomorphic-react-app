@@ -1,6 +1,8 @@
-import React, { Component, PropTypes } from 'react';
+import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router';
+
+import Component from './helpers/LocaleComponent';
 import config from '../../config';
 
 
@@ -39,11 +41,15 @@ class Exhibition extends Component {
 
 Exhibition.propTypes = {
   exhibitions: PropTypes.array,
+  locale: React.PropTypes.string,
+  translate: React.PropTypes.object
 };
 
-function mapStateToProps({ exhibitions }) {
+function mapStateToProps({ exhibitions, locale, translate }) {
   return {
-    exhibitions
+    exhibitions,
+    locale: locale.locale,
+    translate
   };
 }
 

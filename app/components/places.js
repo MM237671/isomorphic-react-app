@@ -1,6 +1,8 @@
-import React, { Component, PropTypes } from 'react';
+import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router';
+
+import Component from './helpers/LocaleComponent';
 import config from '../../config';
 
 
@@ -29,11 +31,15 @@ class Places extends Component {
 
 Places.propTypes = {
   places: PropTypes.array,
+  locale: React.PropTypes.string,
+  translate: React.PropTypes.object
 };
 
-function mapStateToProps({ places }) {
+function mapStateToProps({ places, locale, translate }) {
   return {
-    places
+    places,
+    locale: locale.locale,
+    translate
   };
 }
 

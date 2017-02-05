@@ -1,5 +1,7 @@
-import React, { Component, PropTypes } from 'react';
+import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
+
+import Component from './helpers/LocaleComponent';
 import config from '../../config';
 
 
@@ -50,12 +52,16 @@ class ExhibitionDetail extends Component {
 
 ExhibitionDetail.propTypes = {
   exhibitions: PropTypes.array,
-  params: PropTypes.object
+  params: PropTypes.object,
+  locale: React.PropTypes.string,
+  translate: React.PropTypes.object
 };
 
-function mapStateToProps({ exhibitions }) {
+function mapStateToProps({ exhibitions, locale, translate }) {
   return {
-    exhibitions
+    exhibitions,
+    locale: locale.locale,
+    translate
   };
 }
 

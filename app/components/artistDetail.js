@@ -1,7 +1,9 @@
-import React, { Component, PropTypes } from 'react';
+import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
-import config from '../../config';
 import _ from 'lodash';
+
+import Component from './helpers/LocaleComponent';
+import config from '../../config';
 import Lightbox from './helpers/lightbox';
 
 class Artists extends Component {
@@ -58,8 +60,9 @@ class Artists extends Component {
       <section className="contentArtists">
         {lightboxElement}
         <div className="wrapBlock artistListItemText">
-          <h1>{item.name}</h1>
-          <i>{item.materials}</i>
+          <h1>{this.loc(item.name)}</h1>
+          <br />
+          <i>{this.loc(item.materials)}</i>
           <img className="TextWrapLeft" width="100" src={`${config.staticUrl}${item.photo.src}`} alt={item.photo.title} title={item.photo.title} />
           <p>{item.description}</p>
         </div>
@@ -93,11 +96,15 @@ class Artists extends Component {
 Artists.propTypes = {
   artists: PropTypes.array,
   params: PropTypes.object,
+  locale: React.PropTypes.string,
+  translate: React.PropTypes.object
 };
 
-function mapStateToProps({ artists }) {
+function mapStateToProps({ artists, locale, translate }) {
   return {
-    artists
+    artists,
+    locale: locale.locale,
+    translate
   };
 }
 
