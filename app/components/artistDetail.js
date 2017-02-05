@@ -64,7 +64,7 @@ class Artists extends Component {
           <br />
           <i>{this.loc(item.materials)}</i>
           <img className="TextWrapLeft" width="100" src={`${config.staticUrl}${item.photo.src}`} alt={item.photo.title} title={item.photo.title} />
-          <p>{item.description}</p>
+          <p>{this.loc(item.description)}</p>
         </div>
         {groups['mozaika'] !== undefined && (
           <div key='mozaika' className="wrapBlock artistListItem">
