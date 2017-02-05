@@ -18,7 +18,7 @@ class Artists extends Component {
               <i>{this.loc(item.materials)}</i>
               <img className="TextWrapLeft" width="100" src={`${config.staticUrl}${item.photo.src}`} alt={item.photo.title} title={item.photo.title} />
               <p>{this.loc(item.description)}</p>
-              <p><Link to={`/artist/${item.id}`}>Фотографии работ >></Link></p>
+              <p><Link to={`/artist/${item.id}`}>{this.loc('Фотографии работ')} >></Link></p>
             </div>
           );
         })}

@@ -24,11 +24,11 @@ class ExhibitionDetail extends Component {
             <span>{item.address}</span>
           </address>
           <ul>
-            <li><i>Участники:</i> {item.artists}</li>
-            <li><i>Техники:</i> {item.materials}</li>
+            <li><i>{this.loc('Участники')}:</i> {item.artists.split(', ').map(artist => this.loc(artist)).join(', ')}</li>
+            <li><i>{this.loc('Техники')}:</i> {item.materials.split(', ').map(material => this.loc(material)).join(', ')}</li>
           </ul>
           <div className="clear"></div>
-          <div><i>Фото некоторых работ:</i>
+          <div><i>{this.loc('Фото некоторых работ')}:</i>
             <div>
               {(item.photos || []).map((p, id) => {
                 return (

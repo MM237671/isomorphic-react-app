@@ -25,10 +25,10 @@ class Exhibition extends Component {
                 <span>{item.address}</span>
               </address>
               <ul>
-                <li><i>Участники:</i> {item.artists}</li>
-                <li><i>Техники:</i> {item.materials}</li>
+                <li><i>{this.loc('Участники')}:</i> {item.artists.split(', ').map(artist => this.loc(artist)).join(', ')}</li>
+                <li><i>{this.loc('Техники')}:</i> {item.materials.split(', ').map(material => this.loc(material)).join(', ')}</li>
               </ul>
-              <p><br /><Link to={`/exhibition/${item.id}`}>Посмотреть фотографии с выставки >></Link></p>
+              <p><br /><Link to={`/exhibition/${item.id}`}>{this.loc('Посмотреть фотографии')} >></Link></p>
               <div className="clear"></div>
             </div>
           );

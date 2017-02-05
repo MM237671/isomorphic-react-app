@@ -9,8 +9,10 @@ class LocaleComponent extends Component {
 
   loc(translateStr) {
     let res = translateStr;
-    if (this.props.translate[translateStr][this.props.locale]) {
-      res = this.props.translate[translateStr][this.props.locale];
+    if (this.props.translate[translateStr]) {
+      if (this.props.translate[translateStr][this.props.locale]) {
+        res = this.props.translate[translateStr][this.props.locale];
+      }
     }
     return res;
   }
