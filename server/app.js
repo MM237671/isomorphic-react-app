@@ -10,11 +10,12 @@ import configureStore from '../app/store/configureStore';
 import config from '../config/index';
 
 const sm = require('sitemap');
-const initValues = require('./exhibitions.json');
+const initExh = require('./exhibitions.json');
+const initTranslate = require('./translate.json');
+const initValues = Object.assign({}, initExh, initTranslate);
 const sitemapData = require('./sitemap.json');
 const metaData = require('./metaData.json');
 const app = express();
-
 
 const sitemap = sm.createSitemap(sitemapData);
 const page404 = render404({ conf: config });

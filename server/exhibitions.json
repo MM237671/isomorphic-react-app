@@ -1,4 +1,7 @@
 {
+    "locale": {
+        "locale": "ru"
+    },
     "exhibitions": [
         {
             "id": "kalugaDomMasterov022017",

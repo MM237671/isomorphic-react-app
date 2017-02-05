@@ -70,6 +70,7 @@ header .active {color: #a57800 !important;}
 .wrapBlockHeader {
   padding: 20px;
   max-width: 80%;
+  word-wrap: break-word;
 }
 
 
@@ -99,6 +100,10 @@ header .active {color: #a57800 !important;}
   background-color: #fff;
 }
 
+.content a { color: #002b36; }
+.content a:hover { color: #a57800; }
+
+
 .contentExhibition {
   display: flex;
   flex-direction: column;
@@ -124,6 +129,17 @@ header .active {color: #a57800 !important;}
   flex-wrap: wrap;
   align-items: center;
 }
+
+
+.contentExhibition a { color: #002b36; }
+.contentExhibition a:hover { color: #a57800; }
+.contentArtists a { color: #002b36; }
+.contentArtists a:hover { color: #a57800; }
+.contentPlaces a { color: #002b36; }
+.contentPlaces a:hover { color: #a57800; }
+.footer a { color: #002b36; }
+.footer a:hover { color: #a57800; }
+
 
 .wrapBlock {
   padding: 20px;
@@ -181,7 +197,7 @@ header .active {color: #a57800 !important;}
 }
 
 .headerDetailLink {
-  color: #a57800 !important;
+  color: #002b36 !important;
   text-decoration: underline;
 }
 .headerDetailLink:hover {
@@ -296,4 +312,11 @@ footer .active {color: #a57800 !important;}
 .content404 h1 {
   font-weight: 100;
   padding-bottom: 10px;
+}
+
+
+.locale-select {
+  background: #002b36;
+  color: #a57800;
+  border: 1px solid #a57800;
 }
