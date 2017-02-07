@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack-dev-server --debug --hot --devtool eval-source-map --watch --colors --inline --config webpack.config.js --port 8050 --host 0.0.0.0",
     "devserver": "cross-env BABEL_ENV='node' nodemon server/index.js",
-    "build": "cross-env NODE_ENV='production' webpack --config webpack.config.js",
+    "build": "cross-env NODE_ENV='production' webpack --config webpack.config.prod.js",
     "start": "cross-env BABEL_ENV='node' NODE_ENV='production' node server/index.js"
   },
   "repository": {
