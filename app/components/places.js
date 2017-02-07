@@ -13,10 +13,10 @@ class Places extends Component {
         {this.props.places.map((item, key) => {
           return (
             <div key={key} className="wrapBlock placeListItem">
-              <h3>{item.name}</h3>
+              <h3>{this.loc(item.name)}</h3>
               <p>{item.description}</p>
               <address className="address">
-                <span>{item.address}</span>
+                <span>{this.loc(item.address)}</span>
               </address><br />
               <img src={`${config.staticUrl}${item.src}`} alt={item.address} title={item.address} />
               <div className="clear"></div>

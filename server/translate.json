@@ -141,6 +141,34 @@
         },
         "Фото некоторых работ": {
             "en": "Some artworks photos"
+        },
+
+
+        "Россия, Москва, улица Арбат, 21с1": {
+            "en": "Russian, Moscow, Arbat Street, 21с1"
+        },
+        "Россия, Калужская область, Таруса, Октябрьская улица, 8": {
+            "en": "Russian, Kaluga region, Oktyabrskaya Street, 8"
+        },
+        "Россия, Калужская область, Таруса, пл. Ленина, 1а": {
+            "en": "Russian, Moscow, Lenina Square, 1a"
+        },
+        "Калужская область, Таруса, улица Энгельса, 4": {
+            "en": "Russian, Moscow, Engelsa Street, 4"
+        },
+
+
+        "Музейно-краеведческий центр Дом Позняковых": {
+            "en": "Local History Museum and Center"
+        },
+        "Картинная галерея г. Таруса. Музейно выставочный центр": {
+            "en": "Picture gallery Tarusa. Museum and Exhibition Center"
+        },
+        "Художественный Салон - Тарусский Сувенир": {
+            "en": "Art salon - Tarusskiy Suvenir"
+        },
+        "Художественный Салон на Арбате": {
+            "en": "Art salon on Arbat street"
         }
     }
 }
