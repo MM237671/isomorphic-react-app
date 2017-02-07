@@ -4,60 +4,26 @@ import { connect } from 'react-redux';
 
 import Component from './helpers/LocaleComponent';
 import config from '../../config';
-import Lightbox from './helpers/lightbox';
 
 class MainPage extends Component {
   constructor(props) {
     super(props);
-    this.onClickImage = this.onClickImage.bind(this);
-    this.onCloseLightBox = this.onCloseLightBox.bind(this);
-    this.state = {
-      lightbox: false,
-      images: [
-        `${config.staticUrl}/i/enamel.jpg`,
-        `${config.staticUrl}/i/sculpt.jpg`,
-        `${config.staticUrl}/i/paint.jpg`,
-        `${config.staticUrl}/i/batik.jpg`
-      ]
-    };
-  }
-
-  onClickImage = (img) => {
-    this.setState({
-      lightbox: img
-    });
-  }
-
-  onCloseLightBox = () => {
-    this.setState({
-      lightbox: false
-    });
   }
 
   render() {
-    const { lightbox } = this.state;
-    const lightboxElement = lightbox ? (
-      <Lightbox
-        images={this.state.images}
-        startIndex={this.state.images.indexOf(lightbox)}
-        onCloseRequest={this.onCloseLightBox}
-      />
-    ) : null;
-
     return (
       <section className="content">
-        {lightboxElement}
         <div className="wrapBlock">
           <div>
             <h3 className="text-center"><em>{this.loc('Эмаль')}</em></h3>
             <div className="text-center">
-              <img onClick={this.onClickImage.bind(null, `${config.staticUrl}/i/enamel.jpg`)} src={`${config.staticUrl}/i/enamel.jpg`} title="Эмаль, автор - Пилипенко Михаил" alt="Эмаль, автор - Пилипенко Михаил" />
+              <img src={`${config.staticUrl}/i/enamel.jpg`} title="Эмаль, автор - Пилипенко Михаил" alt="Эмаль, автор - Пилипенко Михаил" />
             </div>
           </div>
           <div>
             <h3 className="text-center"><em>{this.loc('Скульптура')}</em></h3>
             <div className="text-center">
-              <img onClick={this.onClickImage.bind(null, `${config.staticUrl}/i/sculpt.jpg`)} src={`${config.staticUrl}/i/sculpt.jpg`} title="Скульптура, автор - Пилипенко Сергей" alt="Скульптура, автор - Пилипенко Сергей" />
+              <img src={`${config.staticUrl}/i/sculpt.jpg`} title="Скульптура, автор - Пилипенко Сергей" alt="Скульптура, автор - Пилипенко Сергей" />
             </div>
           </div>
         </div>
@@ -65,13 +31,13 @@ class MainPage extends Component {
           <div>
             <h3 className="text-center"><em>{this.loc('Живопись')}</em></h3>
             <div className="text-center">
-              <img onClick={this.onClickImage.bind(null, `${config.staticUrl}/i/paint.jpg`)} src={`${config.staticUrl}/i/paint.jpg`} title="Живопись, автор - Пилипенко Михаил" alt="Живопись, автор - Пилипенко Михаил" />
+              <img src={`${config.staticUrl}/i/paint.jpg`} title="Живопись, автор - Пилипенко Михаил" alt="Живопись, автор - Пилипенко Михаил" />
             </div>
           </div>
           <div>
             <h3 className="text-center"><em>{this.loc('Батик')}</em></h3>
             <div className="text-center">
-              <img onClick={this.onClickImage.bind(null, `${config.staticUrl}/i/batik.jpg`)} src={`${config.staticUrl}/i/batik.jpg`} title="Батик, автор - Пилипенко Виктория" alt="Батик, автор - Пилипенко Виктория" />
+              <img src={`${config.staticUrl}/i/batik.jpg`} title="Батик, автор - Пилипенко Виктория" alt="Батик, автор - Пилипенко Виктория" />
             </div>
           </div>
         </div>
