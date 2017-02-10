@@ -24,7 +24,7 @@ class Layout extends Component {
       <div className="container">
         <header className="header">
           <div className="wrapBlockHeader">
-            <h3 className="title">{this.loc('Художники из города Таруса')}</h3>
+            <h3 className="title">{this.loc('Каталог Ремесел город Таруса')}</h3>
           </div>
           <div className="wrapBlockHeader">
             <select value={this.props.locale} onChange={this.onChangeLocale} className="locale-select">

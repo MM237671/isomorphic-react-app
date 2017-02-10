@@ -68,8 +68,7 @@ function renderHTML({ componentHTML, initialState, metaInfo, conf }) {
           <meta charset='utf-8'>
           <meta name='viewport' content='width=device-width, initial-scale=1.0'>
           <meta name='description' content='${metaInfo.description}'>
-          <meta name='keywords' content='Художник, Пилипенко, Тарус'>
-          <meta name='author' content='Художники из города Таруса'>
+          <meta name='author' content='Пилипенко'>
           <meta name='yandex-verification' content='2ac2f3c613df230d' />
           <meta name="yandex-verification" content="bcc658cda643d1c2" />
           <meta name="yandex-verification" content="7b98854cc3a57aa9" />
@@ -97,7 +96,7 @@ function render404({ conf }) {
       <head>
           <meta charset='utf-8'>
           <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-          <meta name='description' content='Художники Тарусы'>
+          <meta name='description' content='Каталог Ремесел город Таруса'>
           <meta name='author' content='Художники из города Таруса'>
           <meta name='yandex-verification' content='2ac2f3c613df230d' />
           <meta name="yandex-verification" content="bcc658cda643d1c2" />
