@@ -66,5 +66,34 @@
     "/catalog/sculpture/PilipenkoSergey/Pod-nebom-golubym---lavka": {
         "title": "Под небом голубым - лавка",
         "description": "Каталог Ремесел, город Таруса, художник скульптор Пилипенко Сергей, скульптура (дерево/тонировка), Под небом голубым - лавка"
+    },
+
+
+    "/catalog/batik/PilipenkoViktoriya/Pora-tsveteniia": {
+        "title": "Пора цветения",
+        "description": "Каталог Ремесел, город Таруса, художник Пилипенко Виктория, батик (роспись по шелку), Пора цветения"
+    },
+    "/catalog/batik/PilipenkoViktoriya/Buket-s-kupal'nitsami": {
+        "title": "Букет с купальницами",
+        "description": "Каталог Ремесел, город Таруса, художник Пилипенко Виктория, батик (роспись по шелку), Букет с купальницами"
+    },
+
+    "/catalog/painting/PilipenkoTonya/Dom-u-reki": {
+        "title": "Дом у реки",
+        "description": "Каталог Ремесел, город Таруса, художник Пилипенко Антонина, живопись (акварель/пастель), Дом у реки"
+    },
+    "/catalog/painting/PilipenkoTonya/Izumrudnye-derev'ia---PilipenkoTonya": {
+        "title": "Изумрудные деревья",
+        "description": "Каталог Ремесел, город Таруса, художник Пилипенко Антонина, живопись (акварель/пастель), Изумрудные деревья"
+    },
+
+
+    "/catalog/painting/RostemberskayaGalina/Verba-tsvetet": {
+        "title": "Верба цветет",
+        "description": "Каталог Ремесел, город Таруса, художник Ростемберская Галина, живопись (холст/масло), Верба цветет"
+    },
+    "/catalog/painting/RostemberskayaGalina/Natiurmort-siren": {
+        "title": "Натюрморт сирень",
+        "description": "Каталог Ремесел, город Таруса, художник Ростемберская Галина, живопись (холст/масло), Натюрморт сирень"
     }
 }

@@ -33,7 +33,7 @@ class Artists extends Component {
               {groups["mozaika"].map((i, key) => {
                 return (
                   <div key={key} className="mozaikaItemFlex">
-                    <img className="imageWithBorderMazaika" src={`${config.staticUrl}${i.src}`} alt={i.title} title={i.title} />
+                    <img className="imageWithBorderMazaika" src={`${config.staticUrl}${i.src}`} alt={i.alt} title={i.title} />
                   </div>
                 );
               })}
@@ -44,7 +44,7 @@ class Artists extends Component {
         {(groups[undefined] || []).map((i, key) => {
           return (
             <div key={`${key}`} className="wrapBlock artistListItem">
-              <img className="imageWithBorder" key={key} src={`${config.staticUrl}${i.src}`} alt={i.title} title={i.title} />
+              <img className="imageWithBorder" key={key} src={`${config.staticUrl}${i.src}`} alt={i.alt} title={i.title} />
             </div>
           );
         })}

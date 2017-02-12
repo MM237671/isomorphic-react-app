@@ -21,6 +21,15 @@
     { "url": "/catalog/painting/PilipenkoMihail/Osennee-utro"},
 
     { "url": "/catalog/sculpture/PilipenkoSergey/Po-rasskazu-Kuprina-'Olesia'---komod"},
-    { "url": "/catalog/sculpture/PilipenkoSergey/Pod-nebom-golubym---lavka"}
+    { "url": "/catalog/sculpture/PilipenkoSergey/Pod-nebom-golubym---lavka"},
+
+    { "url": "/catalog/batik/PilipenkoViktoriya/Pora-tsveteniia"},
+    { "url": "/catalog/batik/PilipenkoViktoriya/Buket-s-kupal'nitsami"},
+
+    { "url": "/catalog/painting/PilipenkoTonya/Dom-u-reki"},
+    { "url": "/catalog/painting/PilipenkoTonya/Izumrudnye-derev'ia---PilipenkoTonya"},
+
+    { "url": "/catalog/painting/RostemberskayaGalina/Verba-tsvetet"},
+    { "url": "/catalog/painting/RostemberskayaGalina/Natiurmort-siren"}
   ]
 }

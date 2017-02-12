@@ -237,6 +237,308 @@
             "material": "скульптура (дерево/тонировка)",
             "material_id": "sculpture",
             "zise": ""
+        },
+
+
+
+        {
+            "id": "Pora-tsveteniia",
+            "src": "/works/viktoriya/013.JPG",
+            "title": "Пора цветения",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Виктория, батик (роспись по шелку), Пора цветения",
+            "artists_id": "PilipenkoViktoriya",
+            "artists_name": "Пилипенко Виктория",
+            "material": "батик (роспись по шелку)",
+            "material_id": "batik",
+            "zise": ""
+        },
+        {
+            "id": "Buket-s-kupal'nitsami",
+            "src": "/works/viktoriya/2016-06-03 10-34-58.JPG",
+            "title": "Букет с купальницами",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Виктория, батик (роспись по шелку), Букет с купальницами",
+            "artists_id": "PilipenkoViktoriya",
+            "artists_name": "Пилипенко Виктория",
+            "material": "батик (роспись по шелку)",
+            "material_id": "batik",
+            "zise": ""
+        },
+        {
+            "id": "Buket-s-anemonami",
+            "src": "/works/viktoriya/2016-06-03 10-35-26.JPG",
+            "title": "Букет с анемонами",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Виктория, батик (роспись по шелку), Букет с анемонами",
+            "artists_id": "PilipenkoViktoriya",
+            "artists_name": "Пилипенко Виктория",
+            "material": "батик (роспись по шелку)",
+            "material_id": "batik",
+            "zise": ""
+        },
+        {
+            "id": "Nezabudki",
+            "src": "/works/viktoriya/2016-06-03 10-35-48.JPG",
+            "title": "Незабудки",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Виктория, батик (роспись по шелку), Незабудки",
+            "artists_id": "PilipenkoViktoriya",
+            "artists_name": "Пилипенко Виктория",
+            "material": "батик (роспись по шелку)",
+            "material_id": "batik",
+            "zise": ""
+        },
+        {
+            "id": "Siniaia-ptitsa",
+            "src": "/works/viktoriya/IMG_0312.JPG",
+            "title": "Синяя птица",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Викторияй, батик (роспись по шелку), Синяя птица",
+            "artists_id": "PilipenkoViktoriya",
+            "artists_name": "Пилипенко Виктория",
+            "material": "батик (роспись по шелку)",
+            "material_id": "batik",
+            "zise": ""
+        },
+        {
+            "id": "Liubimyi-sad",
+            "src": "/works/viktoriya/IMG_9337.JPG",
+            "title": "Любимый сад",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Виктория, батик (роспись по шелку), Любимый сад",
+            "artists_id": "PilipenkoViktoriya",
+            "artists_name": "Пилипенко Виктория",
+            "material": "батик (роспись по шелку)",
+            "material_id": "batik",
+            "zise": ""
+        },
+        {
+            "id": "V-oduvanchikakh",
+            "src": "/works/viktoriya/IMG_9837.JPG",
+            "title": "В одуванчиках",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Сергей, батик (роспись по шелку), В одуванчиках",
+            "artists_id": "PilipenkoViktoriya",
+            "artists_name": "Пилипенко Сергей",
+            "material": "батик (роспись по шелку)",
+            "material_id": "batik",
+            "zise": ""
+        },
+
+
+        {
+            "id": "Verba-tsvetet",
+            "src": "/works/galya/Верба цветет 20-30 см.jpg",
+            "title": "Верба цветет",
+            "alt": "Каталог Ремесел, город Таруса, художник Ростемберская Галина, живопись (холст/масло), Верба цветет",
+            "artists_id": "RostemberskayaGalina",
+            "artists_name": "Ростемберская Галина",
+            "material": "живопись (холст/масло)",
+            "material_id": "painting",
+            "zise": "20x30"
+        },
+        {
+            "id": "Natiurmort-siren",
+            "src": "/works/galya/Натюрморт сирень 40-50 см.jpg",
+            "title": "Натюрморт сирень",
+            "alt": "Каталог Ремесел, город Таруса, художник Ростемберская Галина, живопись (холст/масло), Натюрморт сирень",
+            "artists_id": "RostemberskayaGalina",
+            "artists_name": "Ростемберская Галина",
+            "material": "живопись (холст/масло)",
+            "material_id": "painting",
+            "zise": "40x50"
+        },
+        {
+            "id": "Podsolnukhi",
+            "src": "/works/galya/Подсолнухи 35-50 см.jpg",
+            "title": "Подсолнухи",
+            "alt": "Каталог Ремесел, город Таруса, художник Ростемберская Галина, живопись (холст/масло), Подсолнухи",
+            "artists_id": "RostemberskayaGalina",
+            "artists_name": "Ростемберская Галина",
+            "material": "живопись (холст/масло)",
+            "material_id": "painting",
+            "zise": "35x50"
+        },
+        {
+            "id": "Reka-taruska-osenniaia",
+            "src": "/works/galya/Река таруска осенняя 35-50 см.jpg",
+            "title": "Река таруска осенняя",
+            "alt": "Каталог Ремесел, город Таруса, художник Ростемберская Галина, живопись (холст/масло), Река таруска осенняя",
+            "artists_id": "RostemberskayaGalina",
+            "artists_name": "Ростемберская Галина",
+            "material": "живопись (холст/масло)",
+            "material_id": "painting",
+            "zise": "35x50"
+        },
+        {
+            "id": "Chuvash-Kubovo",
+            "src": "/works/galya/Чуваш-Кубово 33-54 см.jpg",
+            "title": "Чуваш-Кубово",
+            "alt": "Каталог Ремесел, город Таруса, художник Ростемберская Галина, живопись (холст/масло), Чуваш-Кубово",
+            "artists_id": "RostemberskayaGalina",
+            "artists_name": "Ростемберская Галина",
+            "material": "живопись (холст/масло)",
+            "material_id": "painting",
+            "zise": "33x54"
+        },
+        {
+            "id": "Prud",
+            "src": "/works/galya/IMG_7070.JPG",
+            "title": "Пруд",
+            "alt": "Каталог Ремесел, город Таруса, художник Ростемберская Галина, живопись (холст/масло), Пруд",
+            "artists_id": "RostemberskayaGalina",
+            "artists_name": "Ростемберская Галина",
+            "material": "живопись (холст/масло)",
+            "material_id": "painting",
+            "zise": ""
+        },
+        {
+            "id": "Osen'",
+            "src": "/works/galya/IMG_7072.JPG",
+            "title": "Осень",
+            "alt": "Каталог Ремесел, город Таруса, художник Ростемберская Галина, живопись (холст/масло), Осень",
+            "artists_id": "RostemberskayaGalina",
+            "artists_name": "Ростемберская Галина",
+            "material": "живопись (холст/масло)",
+            "material_id": "painting",
+            "zise": ""
+        },
+        {
+            "id": "Natiurmort-s-astrami",
+            "src": "/works/galya/IMG_7077.JPG",
+            "title": "Натюрморт с астрами",
+            "alt": "Каталог Ремесел, город Таруса, художник Ростемберская Галина, живопись (холст/масло), Натюрморт с астрами",
+            "artists_id": "RostemberskayaGalina",
+            "artists_name": "Ростемберская Галина",
+            "material": "живопись (холст/масло)",
+            "material_id": "painting",
+            "zise": ""
+        },
+        {
+            "id": "Piony",
+            "src": "/works/galya/IMG_7079.JPG",
+            "title": "Пионы",
+            "alt": "Каталог Ремесел, город Таруса, художник Ростемберская Галина, живопись (холст/масло), Пионы",
+            "artists_id": "RostemberskayaGalina",
+            "artists_name": "Ростемберская Галина",
+            "material": "живопись (холст/масло)",
+            "material_id": "painting",
+            "zise": ""
+        },
+        {
+            "id": "Tsvetushchee-derevo",
+            "src": "/works/galya/IMG_7080.JPG",
+            "title": "Цветущее дерево",
+            "alt": "Каталог Ремесел, город Таруса, художник Ростемберская Галина, живопись (холст/масло), Цветущее дерево",
+            "artists_id": "RostemberskayaGalina",
+            "artists_name": "Ростемберская Галина",
+            "material": "живопись (холст/масло)",
+            "material_id": "painting",
+            "zise": ""
+        },
+        {
+            "id": "Siren'",
+            "src": "/works/galya/IMG_7083.JPG",
+            "title": "Сирень",
+            "alt": "Каталог Ремесел, город Таруса, художник Ростемберская Галина, живопись (холст/масло), Сирень",
+            "artists_id": "RostemberskayaGalina",
+            "artists_name": "Ростемберская Галина",
+            "material": "живопись (холст/масло)",
+            "material_id": "painting",
+            "zise": ""
+        },
+
+
+
+        {
+            "id": "Dom-u-reki",
+            "src": "/works/tonya/Дом у реки_бум,акв_20x27_2008.JPG",
+            "title": "Дом у реки",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Антонина, живопись (акварель/пастель), Дом у реки",
+            "artists_id": "PilipenkoTonya",
+            "artists_name": "Пилипенко Антонина",
+            "material": "живопись (акварель/пастель)",
+            "material_id": "painting",
+            "zise": "20x27",
+            "dateCreated": "2008"
+        },
+        {
+            "id": "Izumrudnye-derev'ia---PilipenkoTonya",
+            "src": "/works/tonya/Изумрудные деревья_бум,акв_31х42,2_2012.jpg",
+            "title": "Изумрудные деревья",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Антонина, живопись (акварель/пастель), Изумрудные деревья",
+            "artists_id": "PilipenkoTonya",
+            "artists_name": "Пилипенко Антонина",
+            "material": "живопись (акварель/пастель)",
+            "material_id": "painting",
+            "zise": "31x42,2",
+            "dateCreated": "2012"
+        },
+        {
+            "id": "Otrazhenie",
+            "src": "/works/tonya/Отражение_бум, акв_19,3х29,5_Суздаль2014.jpg",
+            "title": "Отражение",
+            "alt": "Каталог Ремесел, город Суздаль, художник Пилипенко Антонина, живопись (акварель/пастель), Отражение",
+            "artists_id": "PilipenkoTonya",
+            "artists_name": "Пилипенко Антонина",
+            "material": "живопись (акварель/пастель)",
+            "material_id": "painting",
+            "zise": "19,3x29,5",
+            "dateCreated": "2014"
+        },
+        {
+            "id": "Polovod'e-na-Taruske---PilipenkoTonya",
+            "src": "/works/tonya/Половодье на Таруске_бум,акв,пастель_25,9х41,2_2010.jpg",
+            "title": "Половодье на Таруске",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Антонина, живопись (акварель/пастель), Половодье на Таруске",
+            "artists_id": "PilipenkoTonya",
+            "artists_name": "Пилипенко Антонина",
+            "material": "живопись (акварель/пастель)",
+            "material_id": "painting",
+            "zise": "25,9x41",
+            "dateCreated": "февраль 2010"
+        },
+        {
+            "id": "Svezhii-sneg---PilipenkoTonya",
+            "src": "/works/tonya/Свежий снег_бум,акв,гуашь_33,3х41_2011.JPG",
+            "title": "Свежий снег",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Антонина, живопись (акварель/пастель), Свежий снег",
+            "artists_id": "PilipenkoTonya",
+            "artists_name": "Пилипенко Антонина",
+            "material": "живопись (акварель/пастель)",
+            "material_id": "painting",
+            "zise": "33,3x41",
+            "dateCreated": "2011"
+        },
+        {
+            "id": "Tikhii-vecher---PilipenkoTonya",
+            "src": "/works/tonya/Тихий вечер_бум,акв_32х24_Суздаль2011.jpg",
+            "title": "Тихий вечер",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Антонина, живопись (акварель/пастель), Тихий вечер",
+            "artists_id": "PilipenkoTonya",
+            "artists_name": "Пилипенко Антонина",
+            "material": "живопись (акварель/пастель)",
+            "material_id": "painting",
+            "zise": "32x24",
+            "dateCreated": "2011"
+        },
+        {
+            "id": "Iaponskii-natiurmort---PilipenkoTonya",
+            "src": "/works/tonya/Японский натюрморт_бум,акв_2010.jpg",
+            "title": "Японский натюрморт",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Антонина, живопись (акварель/пастель), понский натюрморт",
+            "artists_id": "PilipenkoTonya",
+            "artists_name": "Пилипенко Антонина",
+            "material": "живопись (акварель/пастель)",
+            "material_id": "painting",
+            "zise": "",
+            "dateCreated": "2010"
+        },
+        {
+            "id": "Belye-tsvety---PilipenkoTonya",
+            "src": "/works/tonya/2016-07-03 14-26-08.JPG",
+            "title": "Белые цветы",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Антонина, живопись (акварель/пастель), Белые цветы",
+            "artists_id": "PilipenkoTonya",
+            "artists_name": "Пилипенко Антонина",
+            "material": "живопись (акварель/пастель)",
+            "material_id": "painting",
+            "zise": "",
+            "dateCreated": "2016"
         }
     ]
 }
