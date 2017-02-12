@@ -16,7 +16,7 @@ class Artists extends Component {
       value.id === slug
     ))[0];
 
-    const groups = _.groupBy(item.photos.slice(0, 3), (photo) => photo.group);
+    const groups = _.groupBy(item.photos.slice(0, 4), (photo) => photo.group);
 
     return (
       <section className="contentArtists">
