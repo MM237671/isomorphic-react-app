@@ -41,7 +41,7 @@ class Artists extends Component {
           </div>
 
         )}
-        {groups[undefined].map((i, key) => {
+        {(groups[undefined] || []).map((i, key) => {
           return (
             <div key={`${key}`} className="wrapBlock artistListItem">
               <img className="imageWithBorder" key={key} src={`${config.staticUrl}${i.src}`} alt={i.title} title={i.title} />
