@@ -20,11 +20,15 @@ class Layout extends Component {
 
   render() {
     const { children } = this.props;
+
+
+    const catalogMaterial = 'all';
+    const catalogArtist = 'all';
     return (
       <div className="container">
         <header className="header">
           <div className="wrapBlockHeader">
-            <h3 className="title">{this.loc('Каталог Ремесел город Таруса')}</h3>
+            <h3 className="title">{this.loc('Каталог Ремесел')}</h3>
           </div>
           <div className="wrapBlockHeader">
             <select value={this.props.locale} onChange={this.onChangeLocale} className="locale-select">
@@ -34,6 +38,7 @@ class Layout extends Component {
           </div>
           <nav className="wrapBlockHeader">
             <Link className="nav-link" to="/">{this.loc('Главная')}</Link>&nbsp;
+            <Link className="nav-link" activeClassName="active" to={`/catalog/${catalogMaterial}/${catalogArtist}`}>{this.loc('Каталог')}</Link>&nbsp;
             <Link className="nav-link" activeClassName="active" to="/artist">{this.loc('Художники')}</Link>&nbsp;
             <Link className="nav-link" activeClassName="active" to="/exhibition">{this.loc('Выставки')}</Link>&nbsp;
             <Link className="nav-link" activeClassName="active" to="/places">{this.loc('Места')}</Link>&nbsp;
@@ -50,6 +55,7 @@ class Layout extends Component {
           <address className="address">
             <nav className="wrapBlockHeader">
               <Link className="nav-link" to="/">{this.loc('Главная')}</Link>&nbsp;
+              <Link className="nav-link" activeClassName="active" to={`/catalog/${catalogMaterial}/${catalogArtist}`}>{this.loc('Каталог')}</Link>&nbsp;
               <Link className="nav-link" activeClassName="active" to="/artist">{this.loc('Художники')}</Link>&nbsp;
               <Link className="nav-link" activeClassName="active" to="/exhibition">{this.loc('Выставки')}</Link>&nbsp;
               <Link className="nav-link" activeClassName="active" to="/places">{this.loc('Места')}</Link>&nbsp;

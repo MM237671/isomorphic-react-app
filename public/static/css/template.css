@@ -121,6 +121,14 @@ header .active {color: #a57800 !important;}
   background-color: #fff;
 }
 
+.contentCatalog {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-start;
+  background-color: #fff;
+}
+
 .contentPlaces {
   display: flex;
   flex-direction: row;
@@ -319,4 +327,111 @@ footer .active {color: #a57800 !important;}
   background: #002b36;
   color: #a57800;
   border: 1px solid #a57800;
+}
+
+
+.catalog-select {
+  background: #002b36;
+  color: #a57800;
+  border: 1px solid #a57800;
+}
+
+.contentCatalog .breadcramb a {
+  color: #002b36 !important;
+  text-decoration: underline;
+}
+.contentCatalog .breadcramb a:hover {
+  color: #a57800 !important;
+  text-decoration: underline;
+}
+
+
+.contentCatalog .artworkItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: space-between;
+  flex-wrap: wrap;
+  background-color: #fff;
+  align-content: space-between;
+}
+
+
+.contentCatalog .artworkItems .artworkItem {
+  margin: 10px;
+  width: 280px;
+  height: 420px;
+  border: 1px solid #a57800;
+  overflow: hidden;
+}
+
+
+.contentCatalog .artworkItems .artworkItem .head {
+  background-color: #002b36 !important;
+  color: #a57800;
+  padding: 20px;
+  height: 40px;
+  align-content: center;
+}
+
+.contentCatalog .artworkItems .artworkItem .head a{
+  color: #a57800;
+}
+
+
+.contentCatalog .artworkItems .artworkItem .image {
+  background-color: white !important;
+  max-width: 280px;
+  max-height: 260px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.contentCatalog .artworkItems .artworkItem .image img {
+  background-color: white !important;
+  max-width: 280px;
+  max-height: 260px;
+  align-content: center;
+  overflow: hidden;
+}
+
+.contentCatalog .artworkItems .artworkItem .info {
+  display: block;
+  padding: 20px;
+  background-color: white !important;
+  height: 100%;
+  align-content: center;
+}
+
+
+.artworkDetailItem {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-start;
+  background-color: #fff;
+}
+
+.artworkDetailItem .info {
+  width: 320px;
+}
+
+
+.artworkDetailItem .image {
+  max-width: 640px;
+}
+
+.artworkDetailItem .image img {
+  max-width: 640px;
+}
+
+
+@media only screen and (max-width: 640px) {
+  .artworkDetailItem .image {
+    max-width: 320px;
+  }
+
+  .artworkDetailItem .image img {
+    max-width: 280px;
+  }
 }

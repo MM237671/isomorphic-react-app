@@ -14,6 +14,10 @@
     { "url": "/artist/PilipenkoMihail" },
     { "url": "/artist/PilipenkoViktoriya" },
     { "url": "/artist/PilipenkoSergey" },
-    { "url": "/artist/RostemberskayaGalina" }
+    { "url": "/artist/RostemberskayaGalina" },
+
+
+    { "url": "/catalog/enamel/PilipenkoMihail/Zvezdochet"},
+    { "url": "/catalog/sculpture/PilipenkoSergey/Po-rasskazu-Kuprina-'Olesia'---komod"}
   ]
 }

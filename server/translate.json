@@ -1,10 +1,13 @@
 {
     "translate": {
-        "Каталог Ремесел Таруса": {
-            "en": "Catalog Remesel Tarusa"
+        "Каталог Ремесел": {
+            "en": "Catalog Remesel"
         },
         "Главная": {
             "en": "Home"
+        },
+        "Каталог": {
+            "en": "Catalog"
         },
         "Художники": {
             "en": "Artists"
@@ -169,6 +172,17 @@
         },
         "Художественный Салон на Арбате": {
             "en": "Art salon on Arbat street"
+        },
+
+
+        "Все работы": {
+            "en": "All artworks"
+        },
+        "Все художники": {
+            "en": "All artists"
+        },
+        "Все материалы": {
+            "en": "All materials"
         }
     }
 }

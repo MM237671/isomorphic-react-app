@@ -4,10 +4,12 @@ sitemap: http://remesel.ru/sitemap.xml
 User-agent: Yandex
 Allow: /
 Disallow: /artist$
+Disallow: /catalog$
 Disallow: /exhibition$
 
 User-agent: Googlebot
 Allow: /
+Disallow: /catalog$
 Disallow: /artist$
 Disallow: /exhibition$
 

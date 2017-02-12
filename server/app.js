@@ -11,8 +11,10 @@ import config from '../config/index';
 
 const sm = require('sitemap');
 const initExh = require('./exhibitions.json');
+const initArtWorks = require('./artworks.json');
 const initTranslate = require('./translate.json');
-const initValues = Object.assign({}, initExh, initTranslate);
+const initValues = Object.assign({}, initExh, initArtWorks, initTranslate);
+
 const sitemapData = require('./sitemap.json');
 const metaData = require('./metaData.json');
 const app = express();

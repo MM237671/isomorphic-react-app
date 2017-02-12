@@ -12,6 +12,8 @@ import Artists from './components/artists';
 import Artist from './components/artistDetail';
 import Places from './components/places';
 import Contacts from './components/contacts';
+import Catalog from './components/catalog';
+import CatalogItem from './components/catalogItem';
 
 export default (
   <Router>
@@ -24,6 +26,9 @@ export default (
       <Route path="/exhibition/:id" component={ExhibitionDetail} />
       <Route path="/places" component={Places} />
       <Route path="/contacts" component={Contacts} />
+
+      <Route path="/catalog/:material/:artist" component={Catalog} />
+      <Route path="/catalog/:material/:artist/:artwork" component={CatalogItem} />
     </Route>
   </Router>
 );

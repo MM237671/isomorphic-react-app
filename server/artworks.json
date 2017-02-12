@@ -1,0 +1,242 @@
+{
+    "artworks": [
+        {
+            "id": "Domik-khudozhnikov-I.Starzhenetskoi-i-A.Kamelina",
+            "src": "/works/miha/IMG_1970.jpg",
+            "title": "Домик художников И.Старженецкой и А.Камелина",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, живопись холст/масло, Домик художников И.Старженецкой и А.Камелина",
+            "artists_id": "PilipenkoMihail",
+            "artists_name": "Пилипенко Михаил",
+            "material": "живопись холст / масло",
+            "material_id": "painting",
+            "size": ""
+        },
+        {
+            "id": "Sneg-vypal",
+            "src": "/works/miha/IMG_1971.jpg",
+            "title": "Снег выпал",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, живопись холст/масло, Снег выпал",
+            "artists_id": "PilipenkoMihail",
+            "artists_name": "Пилипенко Михаил",
+            "material": "живопись холст / масло",
+            "material_id": "painting",
+            "zise": ""
+        },
+        {
+            "id": "Zimnie-derev'ia",
+            "src": "/works/miha/IMG_1972.jpg",
+            "title": "Зимние деревья",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, живопись холст/масло, Зимние деревья",
+            "artists_id": "PilipenkoMihail",
+            "artists_name": "Пилипенко Михаил",
+            "material": "живопись холст / масло",
+            "material_id": "painting",
+            "zise": ""
+        },
+        {
+            "id": "Osennee-utro",
+            "src": "/works/miha/IMG_1973.jpg",
+            "title": "Осеннее утро",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, живопись холст/масло, Осеннее утро",
+            "artists_id": "PilipenkoMihail",
+            "artists_name": "Пилипенко Михаил",
+            "material": "живопись холст / масло",
+            "material_id": "painting",
+            "zise": ""
+        },
+        {
+            "id": "Pogoda-meniaetsia",
+            "src": "/works/miha/IMG_1974.jpg",
+            "title": "Погода меняется",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, живопись холст/масло, Погода меняется",
+            "artists_id": "PilipenkoMihail",
+            "artists_name": "Пилипенко Михаил",
+            "material": "живопись холст / масло",
+            "material_id": "painting",
+            "zise": ""
+        },
+        {
+            "id": "Vechereet",
+            "src": "/works/miha/IMG_1975.jpg",
+            "title": "Вечереет",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, живопись холст/масло, Вечереет",
+            "artists_id": "PilipenkoMihail",
+            "artists_name": "Пилипенко Михаил",
+            "material": "живопись холст / масло",
+            "material_id": "painting",
+            "zise": ""
+        },
+        {
+            "id": "Pervyi-sneg",
+            "src": "/works/miha/IMG_1976.jpg",
+            "title": "Первый снег",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, живопись холст/масло, Первый снег",
+            "artists_id": "PilipenkoMihail",
+            "artists_name": "Пилипенко Михаил",
+            "material": "живопись холст / масло",
+            "material_id": "painting",
+            "zise": ""
+        },
+        {
+            "id": "Domiki",
+            "src": "/works/miha/IMG_1716.jpg",
+            "title": "Домики",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, живопись холст/масло, Домики",
+            "artists_id": "PilipenkoMihail",
+            "artists_name": "Пилипенко Михаил",
+            "material": "живопись холст / масло",
+            "material_id": "painting",
+            "zise": ""
+        },
+        {
+            "id": "Domiki-(variant)",
+            "src": "/works/miha/IMG_1715.jpg",
+            "title": "Домики (вариант)",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, живопись холст/масло, Домики (вариант)",
+            "artists_id": "PilipenkoMihail",
+            "artists_name": "Пилипенко Михаил",
+            "material": "живопись холст / масло",
+            "material_id": "painting",
+            "zise": ""
+        },
+        {
+            "id": "Lodki",
+            "src": "/works/miha/IMG_1811.jpg",
+            "title": "Лодки",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, живопись холст/масло/белое золото, Лодки",
+            "artists_id": "PilipenkoMihail",
+            "artists_name": "Пилипенко Михаил",
+            "material": "живопись холст / масло / белое золото",
+            "material_id": "painting",
+            "zise": ""
+        },
+        {
+            "id": "Zimnii-gorodok",
+            "src": "/works/miha/IMG_2090.jpg",
+            "title": "Зимний городок",
+            "group": "mozaika",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, горячая эмаль / медь, Зимний городок",
+            "artists_id": "PilipenkoMihail",
+            "artists_name": "Пилипенко Михаил",
+            "material": "горячая эмаль / медь",
+            "material_id": "enamel",
+            "zise": ""
+        },
+        {
+            "id": "Zvezdochet",
+            "src": "/works/miha/IMG_2091.jpg",
+            "title": "Звездочет",
+            "group": "mozaika",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, горячая эмаль / медь, Звездочет",
+            "artists_id": "PilipenkoMihail",
+            "artists_name": "Пилипенко Михаил",
+            "material": "горячая эмаль / медь",
+            "material_id": "enamel",
+            "zise": ""
+        },
+        {
+            "id": "Pervyi-sneg",
+            "src": "/works/miha/IMG_2092.jpg",
+            "title": "Первый снег",
+            "group": "mozaika",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, горячая эмаль / медь, Первый снег",
+            "artists_id": "PilipenkoMihail",
+            "artists_name": "Пилипенко Михаил",
+            "material": "горячая эмаль / медь",
+            "material_id": "enamel",
+            "zise": ""
+        },
+        {
+            "id": "Zhenshchina-i-vaza",
+            "src": "/works/miha/IMG_2093.jpg",
+            "title": "Женщина и ваза",
+            "group": "mozaika",
+            "alt": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, горячая эмаль / медь, Женщина и ваза",
+            "artists_id": "PilipenkoMihail",
+            "artists_name": "Пилипенко Михаил",
+            "material": "горячая эмаль / медь",
+            "material_id": "enamel",
+            "zise": ""
+        },
+
+
+
+        {
+            "id": "Kot-na-progulke---shkatulka",
+            "src": "/works/sergey/IMG_0966.JPG",
+            "title": "Кот на прогулке - шкатулка",
+            "alt": "Каталог Ремесел, город Таруса, художник скульптор Пилипенко Сергей, скульптура (дерево/тонировка), Кот на прогулке - шкатулка",
+            "artists_id": "PilipenkoSergey",
+            "artists_name": "Пилипенко Сергей",
+            "material": "скульптура (дерево/тонировка)",
+            "material_id": "sculpture",
+            "zise": ""
+        },
+        {
+            "id": "V-trave-sidel-kuznechik---komodik",
+            "src": "/works/sergey/IMG_0986.JPG",
+            "title": "В траве сидел кузнечик - комодик",
+            "alt": "Каталог Ремесел, город Таруса, художник скульптор Пилипенко Сергей, скульптура (дерево/тонировка), В траве сидел кузнечик - комодик",
+            "artists_id": "PilipenkoSergey",
+            "artists_name": "Пилипенко Сергей",
+            "material": "скульптура (дерево/тонировка)",
+            "material_id": "sculpture",
+            "zise": ""
+        },
+        {
+            "id": "Nash-ryzhii-kot-kotoromu-vezet---komodik",
+            "src": "/works/sergey/IMG_1832.JPG",
+            "title": "Наш рыжий кот которому везет - комодик",
+            "alt": "Каталог Ремесел, город Таруса, художник скульптор Пилипенко Сергей, скульптура (дерево/тонировка), Наш рыжий кот которому везет - комодик",
+            "artists_id": "PilipenkoSergey",
+            "artists_name": "Пилипенко Сергей",
+            "material": "скульптура (дерево/тонировка)",
+            "material_id": "sculpture",
+            "zise": ""
+        },
+        {
+            "id": "Ogne-grivyi-lev---komodik",
+            "src": "/works/sergey/IMG_1957.JPG",
+            "title": "Огне-гривый лев - комодик",
+            "alt": "Каталог Ремесел, город Таруса, художник скульптор Пилипенко Сергей, скульптура (дерево/тонировка), Огне-гривый лев",
+            "artists_id": "PilipenkoSergey",
+            "artists_name": "Пилипенко Сергей",
+            "material": "скульптура (дерево/тонировка)",
+            "material_id": "sculpture",
+            "zise": ""
+        },
+        {
+            "id": "Zaiats-v-tiul'panakh---komodik",
+            "src": "/works/sergey/IMG_1042.JPG",
+            "title": "Заяц в тюльпанах - комодик",
+            "alt": "Каталог Ремесел, город Таруса, художник скульптор Пилипенко Сергей, скульптура (дерево/тонировка), Заяц в тюльпанах - комодик",
+            "artists_id": "PilipenkoSergey",
+            "artists_name": "Пилипенко Сергей",
+            "material": "скульптура (дерево/тонировка)",
+            "material_id": "sculpture",
+            "zise": ""
+        },
+        {
+            "id": "Po-rasskazu-Kuprina-'Olesia'---komod",
+            "src": "/works/sergey/IMG_2036.JPG",
+            "title": "По рассказу Куприна 'Олеся' - комод",
+            "alt": "Каталог Ремесел, город Таруса, художник скульптор Пилипенко Сергей, скульптура (дерево/тонировка), По рассказу Куприна 'Олеся' - комод",
+            "artists_id": "PilipenkoSergey",
+            "artists_name": "Пилипенко Сергей",
+            "material": "скульптура (дерево/тонировка)",
+            "material_id": "sculpture",
+            "zise": ""
+        },
+        {
+            "id": "Pod-nebom-golubym---lavka",
+            "src": "/works/sergey/IMG_1555.JPG",
+            "title": "Под небом голубым - лавка",
+            "alt": "Каталог Ремесел, город Таруса, художник скульптор Пилипенко Сергей, скульптура (дерево/тонировка), Под небом голубым - лавка",
+            "artists_id": "PilipenkoSergey",
+            "artists_name": "Пилипенко Сергей",
+            "material": "скульптура (дерево/тонировка)",
+            "material_id": "sculpture",
+            "zise": ""
+        }
+    ]
+}
