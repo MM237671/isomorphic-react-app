@@ -66,6 +66,9 @@
         "живопись (холст/масло)": {
             "en": "painting (canvas/oil)"
         },
+        "живопись (холст / масло / белое золото)": {
+            "en": "painting (canvas/oil/white gold)"
+        },
         "живопись (акварель/пастель)": {
             "en": "painting (watercolor / pastel)"
         },
@@ -183,6 +186,26 @@
         },
         "Все материалы": {
             "en": "All materials"
+        },
+
+
+        "Название": {
+            "en": "Name"
+        },
+        "Художник": {
+            "en": "Artist"
+        },
+        "Материал": {
+            "en": "Material"
+        },
+        "Место": {
+            "en": "Place"
+        },
+        "Дата создания": {
+            "en": "Date created"
+        },
+        "Размер": {
+            "en": "Size"
         }
     }
 }

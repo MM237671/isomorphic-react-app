@@ -72,7 +72,7 @@ class Catalog extends Component {
                 <dd>{this.loc(item.material)}</dd>
                 <dt>{this.loc('Место')}</dt>
                 <dd>{this.loc('город Таруса')}</dd>
-                <dt>{this.loc('Год')}</dt>
+                <dt>{this.loc('Дата создания')}</dt>
                 <dd>{item.date}</dd>
                 <dt>{this.loc('Размер')}</dt>
                 <dd>{item.size}</dd>
