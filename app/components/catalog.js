@@ -58,7 +58,7 @@ class Catalog extends Component {
             <option value="sculpture">{this.loc('Скульптура')}</option>
             <option value="graphic">{this.loc('Графика')}</option>
           </select>&nbsp;
-          <select onChange={this.changeArtist} value={this.props.params.artists} className="catalog-select">
+          <select onChange={this.changeArtist} value={this.props.params.artist} className="catalog-select">
             <option value="all">{this.loc('Все художники')}</option>
             <option value="PilipenkoMihail">{this.loc('Пилипенко Михаил')}</option>
             <option value="PilipenkoTonya">{this.loc('Пилипенко Антонина')}</option>

@@ -17,13 +17,17 @@ class MainPage extends Component {
           <div>
             <h3 className="text-center"><em>{this.loc('Эмаль')}</em></h3>
             <div className="text-center">
-              <img src={`${config.staticUrl}/i/enamel.jpg`} title="Эмаль, автор - Пилипенко Михаил" alt="Эмаль, автор - Пилипенко Михаил" />
+              <Link to="/catalog/enamel/PilipenkoMihail">
+                <img src={`${config.staticUrl}/i/enamel.jpg`} title="Эмаль, художник Пилипенко Михаил город Таруса" alt="Каталог Ремесел Эмаль, художник Пилипенко Михаил, город Таруса" />
+              </Link>
             </div>
           </div>
           <div>
             <h3 className="text-center"><em>{this.loc('Скульптура')}</em></h3>
             <div className="text-center">
-              <img src={`${config.staticUrl}/i/sculpt.jpg`} title="Скульптура, автор - Пилипенко Сергей" alt="Скульптура, автор - Пилипенко Сергей" />
+              <Link to="/catalog/sculpture/PilipenkoSergey">
+                <img src={`${config.staticUrl}/i/sculpt.jpg`} title="Скульптура, автор - Пилипенко Сергей" alt="Каталог Скульптура, художник Пилипенко Сергей, город Таруса" />
+              </Link>
             </div>
           </div>
         </div>
@@ -31,13 +35,17 @@ class MainPage extends Component {
           <div>
             <h3 className="text-center"><em>{this.loc('Живопись')}</em></h3>
             <div className="text-center">
-              <img src={`${config.staticUrl}/i/paint.jpg`} title="Живопись, автор - Пилипенко Михаил" alt="Живопись, автор - Пилипенко Михаил" />
+              <Link to="/catalog/painting/all">
+                <img src={`${config.staticUrl}/i/paint.jpg`} title="Живопись, художники Пилипенко Михаил, Пилпенко Антонина, Ростемберская Галина" alt="Живопись, художники Пилипенко Михаил, Пилпенко Антонина, Ростемберская Галина, город Таруса" />
+              </Link>
             </div>
           </div>
           <div>
             <h3 className="text-center"><em>{this.loc('Батик')}</em></h3>
             <div className="text-center">
-              <img src={`${config.staticUrl}/i/batik.jpg`} title="Батик, автор - Пилипенко Виктория" alt="Батик, автор - Пилипенко Виктория" />
+              <Link to="/catalog/batik/PilipenkoViktoriya">
+                <img src={`${config.staticUrl}/i/batik.jpg`} title="Батик, художник Пилипенко Виктория, город Таруса" alt="Каталог Батик, художник Пилипенко Виктория, город Таруса" />
+              </Link>
             </div>
           </div>
         </div>
