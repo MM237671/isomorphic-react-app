@@ -76,7 +76,10 @@ function renderHTML({ componentHTML, initialState, metaInfo, conf }) {
           <meta name="yandex-verification" content="7b98854cc3a57aa9" />
           <link rel='shortcut icon' href='/static/i/cat.ico'/>
           <title>${metaInfo.title}</title>
-          <link rel='stylesheet' href='${conf.staticHost}/build/main.css'>
+          <link rel="stylesheet" href='${conf.staticHost}/build/main.css' media="none" onload="if(media!='all')media='all'">
+          <noscript><link rel="stylesheet" href='${conf.staticHost}/build/main.css'></noscript>
+
+
       </head>
       <body>
       <div id='app'>${componentHTML}</div>
