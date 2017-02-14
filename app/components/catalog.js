@@ -12,6 +12,7 @@ class Catalog extends Component {
 
     this.changeArtist = this.changeArtist.bind(this);
     this.changeMaterial = this.changeMaterial.bind(this);
+    this.getThumbPath = this.getThumbPath.bind(this);
   }
 
   changeArtist(e) {
@@ -20,6 +21,10 @@ class Catalog extends Component {
 
   changeMaterial(e) {
     browserHistory.push(`/catalog/${e.target.value}/${this.props.params.artist}`);
+  }
+
+  getThumbPath(src) {
+    return `${src.substring(0, src.length - 4)}.thumbnail.jpg`;
   }
 
   render() {
@@ -70,7 +75,7 @@ class Catalog extends Component {
                   <Link to={`/catalog/${this.props.params.material}/${this.props.params.artist}/${item.id}`}>«{item.title}»</Link><br />
                 </div>
                 <div className="image">
-                  <img src={`${config.staticUrl}${item.src}`} alt={item.alt} title={item.title} />
+                  <img src={`${config.staticUrl}${this.getThumbPath(item.src)}`} alt={item.alt} title={item.title} />
                 </div>
                 <div className="info">
                   {item.material}<br />
