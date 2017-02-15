@@ -35,7 +35,7 @@ class Catalog extends Component {
 
     function isCurrent(artwork) {
       let res = true;
-      if ((artwork.material_id === material || material === 'all') && (artwork.artists_id === artist || artist === 'all')) {
+      if ((artwork.material_id === material || material === 'material') && (artwork.artists_id === artist || artist === 'artist')) {
         res = true;
       } else {
         res = false;
@@ -51,7 +51,7 @@ class Catalog extends Component {
         <div className="wrapBlock breadcramb">
           <Link to={`/catalog/${this.props.params.material}/${this.props.params.artist}`}>{this.loc('Все работы')}</Link>&nbsp;
           <select onChange={this.changeMaterial} value={this.props.params.material} className="catalog-select">
-            <option value="all">{this.loc('Все материалы')}</option>
+            <option value="material">{this.loc('Все материалы')}</option>
             <option value="painting">{this.loc('Живопись')}</option>
             <option value="enamel">{this.loc('Эмаль')}</option>
             <option value="batik">{this.loc('Батик')}</option>
@@ -59,7 +59,7 @@ class Catalog extends Component {
             <option value="graphic">{this.loc('Графика')}</option>
           </select>&nbsp;
           <select onChange={this.changeArtist} value={this.props.params.artist} className="catalog-select">
-            <option value="all">{this.loc('Все художники')}</option>
+            <option value="artist">{this.loc('Все художники')}</option>
             <option value="PilipenkoMihail">{this.loc('Пилипенко Михаил')}</option>
             <option value="PilipenkoTonya">{this.loc('Пилипенко Антонина')}</option>
             <option value="PilipenkoViktoriya">{this.loc('Пилипенко Виктория')}</option>

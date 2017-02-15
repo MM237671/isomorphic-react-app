@@ -17,10 +17,10 @@
     { "url": "/artist/RostemberskayaGalina" },
 
 
-    { "url": "/catalog/all/all"},
-    { "url": "/catalog/all/PilipenkoSergey" },
+    { "url": "/catalog/material/artist"},
+    { "url": "/catalog/material/PilipenkoSergey" },
     { "url": "/catalog/sculpture/PilipenkoSergey" },
-    { "url": "/catalog/all/PilipenkoMihail" },
+    { "url": "/catalog/material/PilipenkoMihail" },
 
 
     { "url": "/catalog/enamel/PilipenkoMihail/Zvezdochet"},

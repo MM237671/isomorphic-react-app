@@ -35,7 +35,7 @@ class MainPage extends Component {
           <div>
             <h3 className="text-center"><em>{this.loc('Живопись')}</em></h3>
             <div className="text-center">
-              <Link to="/catalog/painting/all">
+              <Link to="/catalog/painting/artist">
                 <img src={`${config.staticUrl}/i/paint.jpg`} title="Живопись, художники Пилипенко Михаил, Пилпенко Антонина, Ростемберская Галина" alt="Живопись, художники Пилипенко Михаил, Пилпенко Антонина, Ростемберская Галина, город Таруса" />
               </Link>
             </div>
@@ -52,7 +52,7 @@ class MainPage extends Component {
         <div className="wrapBlock maxWidth40">
           <div id="content">
             <h1 className="title">{this.loc('Каталог Ремесел')}</h1>
-            <p>{this.loc('Каталог Ремесел включает')} <Link to="/catalog/all/all">{this.loc('фотографии работ')}</Link> {this.loc('и информацию о')} <Link to="/exhibition">{this.loc('выставках')}.</Link> {this.loc('Художники работают с различными материалами')}:</p>
+            <p>{this.loc('Каталог Ремесел включает')} <Link to="/catalog/material/artist">{this.loc('фотографии работ')}</Link> {this.loc('и информацию о')} <Link to="/exhibition">{this.loc('выставках')}.</Link> {this.loc('Художники работают с различными материалами')}:</p>
             <dl className="dl-horizontal">
               <dt><Link to="/artist/PilipenkoViktoriya">{this.loc('Пилипенко Виктория')}</Link></dt>
               <dd>{this.loc('батик (роспись по шелку)')}</dd>

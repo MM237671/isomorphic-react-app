@@ -22,8 +22,8 @@ class Layout extends Component {
     const { children } = this.props;
 
 
-    const catalogMaterial = 'all';
-    const catalogArtist = 'all';
+    const catalogMaterial = 'material';
+    const catalogArtist = 'artist';
     return (
       <div className="container">
         <header className="header">

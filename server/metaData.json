@@ -49,15 +49,15 @@
     },
 
 
-    "/catalog/all/all": {
+    "/catalog/material/artist": {
         "title": "Каталог Ремесел",
         "description": "Каталог Ремесел, Собрание работ художников из города Таруса, Живопись, графика, скульптура, эмаль, батик, купить работы у художников"
     },
-    "/catalog/painting/all": {
+    "/catalog/painting/artist": {
         "title": "Каталог Ремесел Живопись",
         "description": "Каталог Ремесел, живопись холст масло акварель, город Таруса"
     },
-    "/catalog/batik/all": {
+    "/catalog/batik/artist": {
         "title": "Каталог Ремесел Батик",
         "description": "Каталог Ремесел, батик роспись по шелку, город Таруса"
     },
@@ -65,19 +65,19 @@
         "title": "Каталог Ремесел Скульптура",
         "description": "Каталог Ремесел, скульптура дерево тонировка, город Таруса"
     },
-    "/catalog/enamel/all": {
+    "/catalog/enamel/artist": {
         "title": "Каталог Ремесел Эмаль",
         "description": "Каталог Ремесел, горячая эмаль медь, город Таруса"
     },
-    "/catalog/graphic/all": {
+    "/catalog/graphic/artist": {
         "title": "Каталог Ремесел графика",
         "description": "Каталог Ремесел, графика ручка бумага, город Таруса"
     },
-    "/catalog/all/PilipenkoSergey": {
+    "/catalog/material/PilipenkoSergey": {
         "title": "Каталог Ремесел Художник Пилипенко Сергей",
         "description": "Каталог Ремесел, город Таруса, художественные работы скульптура графика Пилипенко Сергея"
     },
-    "/catalog/all/PilipenkoMihail": {
+    "/catalog/material/PilipenkoMihail": {
         "title": "Каталог Ремесел Художник Пилипенко Михаил",
         "description": "Каталог Ремесел, город Таруса, художественные работы живопись эмаль Пилипенко Михаил"
     },
