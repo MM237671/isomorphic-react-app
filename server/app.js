@@ -45,6 +45,7 @@ app.use((req, res) => {
       const host = req.headers.host;
       if (host.substr(0, 2) === 'en') {
         initValues.locale.locale = 'en';
+        host.substr(3);
       }
 
       const store = configureStore(initValues);
@@ -60,14 +61,16 @@ app.use((req, res) => {
         componentHTML,
         initialState,
         metaInfo,
-        conf: config
+        conf: config,
+        host,
+        originalUrl: req.originalUrl
       });
       res.end(html);
     }
   });
 });
 
-function renderHTML({ componentHTML, initialState, metaInfo, conf }) {
+function renderHTML({ componentHTML, initialState, metaInfo, conf, host, originalUrl }) {
   return `
       <!DOCTYPE html>
       <html>
@@ -80,6 +83,8 @@ function renderHTML({ componentHTML, initialState, metaInfo, conf }) {
           <meta name="yandex-verification" content="bcc658cda643d1c2" />
           <meta name="yandex-verification" content="7b98854cc3a57aa9" />
           <link rel='shortcut icon' href='/static/i/cat.ico'/>
+          <link rel="alternate" hreflang="x-default" href="http://${host}${originalUrl}">
+          <link rel="alternate" hreflang="en-us" href="http://en.${host}${originalUrl}">
           <title>${metaInfo.title}</title>
           <link rel="stylesheet" href='${conf.staticHost}/build/main.css' media="none" onload="if(media!='all')media='all'">
           <noscript><link rel="stylesheet" href='${conf.staticHost}/build/main.css'></noscript>
