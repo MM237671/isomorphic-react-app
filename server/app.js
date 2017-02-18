@@ -83,8 +83,6 @@ function renderHTML({ componentHTML, initialState, metaInfo, conf, host, origina
           <meta name="yandex-verification" content="bcc658cda643d1c2" />
           <meta name="yandex-verification" content="7b98854cc3a57aa9" />
           <link rel='shortcut icon' href='/static/i/cat.ico'/>
-          <link rel="alternate" hreflang="x-default" href="http://${host}${originalUrl}">
-          <link rel="alternate" hreflang="en-us" href="http://en.${host}${originalUrl}">
           <title>${metaInfo.title}</title>
           <link rel="stylesheet" href='${conf.staticHost}/build/main.css' media="none" onload="if(media!='all')media='all'">
           <noscript><link rel="stylesheet" href='${conf.staticHost}/build/main.css'></noscript>
