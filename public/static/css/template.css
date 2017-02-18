@@ -435,3 +435,20 @@ footer .active {color: #a57800 !important;}
     max-width: 280px;
   }
 }
+
+.contentCatalog .inlineHeader {
+  display: inline-block;
+}
+
+.contentCatalog .inlineHeader h1 {
+  font-weight: 100;
+  margin-top: 3px;
+  padding: 0 5px;
+}
+
+.contentCatalog h1 {
+  color: ;
+  font-weight: 100;
+  color: #a57800;
+  padding: 10px 0px;
+}

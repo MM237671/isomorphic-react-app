@@ -58,7 +58,9 @@ class Catalog extends Component {
             <option value="PilipenkoSergey">{this.loc('Пилипенко Сергей')}</option>
             <option value="RostemberskayaGalina">{this.loc('Ростемберская Галина')}</option>
           </select>&nbsp;
-          {item.title}
+          <div className="inlineHeader">
+            <h1>«{item.title}»</h1>
+          </div>
         </div>
         <div className="wrapBlock">
           <div className="artworkDetailItem">

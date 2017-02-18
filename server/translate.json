@@ -13,7 +13,7 @@
             "en": "Artists"
         },
         "Выставки": {
-            "en": "Exhibitions"
+            "en": "Fairs"
         },
         "Места": {
             "en": "Places"
@@ -48,6 +48,49 @@
         },
         "Ростемберская Галина": {
             "en": "Rostemberskay Galina"
+        },
+
+
+        "PilipenkoMihail": {
+            "en": "Pilipenko Michail",
+            "ru": "Пилипенко Михаил"
+        },
+        "PilipenkoSergey": {
+            "en": "Pilipenko Sergey",
+            "ru": "Пилипенко Сергей"
+        },
+        "PilipenkoViktoriya": {
+            "en": "Pilipenko Viktoriya",
+            "ru": "Пилипенко Виктория"
+        },
+        "PilipenkoTonya": {
+            "en": "Pilipenko Antonina",
+            "ru": "Пилипенко Антонина"
+        },
+        "RostemberskayaGalina": {
+            "en": "Rostemberskaya Galina",
+            "ru": "Ростемберская Галина"
+        },
+
+        "enamel": {
+            "en": "Enamel",
+            "ru": "Эмаль"
+        },
+        "painting": {
+            "en": "Painting",
+            "ru": "Живопись"
+        },
+        "batik": {
+            "en": "Batik",
+            "ru": "Батик"
+        },
+        "sculpture": {
+            "en": "Sculpture",
+            "ru": "Скульптура"
+        },
+        "graphic": {
+            "en": "Graphic",
+            "ru": "Графика"
         },
 
         "Художники работают с различными материалами": {

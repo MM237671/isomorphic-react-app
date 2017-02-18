@@ -13,6 +13,8 @@ class Catalog extends Component {
     this.changeArtist = this.changeArtist.bind(this);
     this.changeMaterial = this.changeMaterial.bind(this);
     this.getThumbPath = this.getThumbPath.bind(this);
+    this.getArtistHeader = this.getArtistHeader.bind(this);
+    this.getMaterialHeader = this.getMaterialHeader.bind(this);
   }
 
   changeArtist(e) {
@@ -25,6 +27,22 @@ class Catalog extends Component {
 
   getThumbPath(src) {
     return `${src.substring(0, src.length - 4)}.thumbnail.jpg`;
+  }
+
+  getArtistHeader(artist) {
+    let header = '';
+    if (artist !== 'artist') {
+      header = this.loc('Художник ') + this.loc(artist);
+    }
+    return header;
+  }
+
+  getMaterialHeader(material) {
+    let header = this.loc('Каталог Ремесел');
+    if (material !== 'material') {
+      header = this.loc(material);
+    }
+    return header;
   }
 
   render() {
@@ -66,6 +84,9 @@ class Catalog extends Component {
             <option value="PilipenkoSergey">{this.loc('Пилипенко Сергей')}</option>
             <option value="RostemberskayaGalina">{this.loc('Ростемберская Галина')}</option>
           </select>
+          <div className="inlineHeader">
+          <h1>{`${this.getMaterialHeader(material)} ${this.getArtistHeader(artist)} город Таруса`}</h1>
+          </div>
         </div>
         <div className="wrapBlock artworkItems">
           {artworks.map((item, key) => {
