@@ -14,15 +14,15 @@ class Exhibition extends Component {
           return (
             <div key={key} className="wrapBlock exhibitionListItem">
               <Link className="headerDetailLink" to={`/exhibition/${item.id}`}>
-                <h1>{item.name}<br /><small>{item.description}</small></h1>
+                <h1>{this.loc(item.name)}<br /><small>{this.loc(item.description)}</small></h1>
               </Link>
               {item.photo !== undefined && (
 
                 <img className="TextWrapLeft" width="200" src={`${config.staticUrl}${item.photo.src}`} alt={item.photo.alt} title={item.photo.title} />
               )}
               <address className="address">
-                <span>C {item.from}</span>&nbsp;по&nbsp;<span>{item.to}</span><br />
-                <span>{item.address}</span>
+                <span>{item.from}</span>&nbsp;-&nbsp;<span>{item.to}</span><br />
+                <span>{this.loc(item.address)}</span>
               </address>
               <ul>
                 <li><i>{this.loc('Участники')}:</i> {item.artists.split(', ').map(artist => this.loc(artist)).join(', ')}</li>
