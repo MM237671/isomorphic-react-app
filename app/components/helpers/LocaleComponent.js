@@ -5,6 +5,11 @@ class LocaleComponent extends Component {
   constructor(props) {
     super(props);
     this.loc = this.loc.bind(this);
+    this.getThumbPath = this.getThumbPath.bind(this);
+  }
+
+  getThumbPath(src) {
+    return `${src.substring(0, src.length - 4)}.thumbnail.jpg`;
   }
 
   loc(translateStr) {
@@ -16,7 +21,6 @@ class LocaleComponent extends Component {
     }
     return res;
   }
-
 
   render() {
     return (

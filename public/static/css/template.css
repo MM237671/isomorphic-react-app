@@ -189,6 +189,7 @@ header .active {color: #a57800 !important;}
 
 .imageWithBorderMazaika {
   max-height: 160px;
+  max-width: 160px;
 }
 
 .mozaikaItemFlex {

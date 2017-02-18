@@ -33,7 +33,7 @@ class Artists extends Component {
               {groups["mozaika"].map((i, key) => {
                 return (
                   <div key={key} className="mozaikaItemFlex">
-                    <img className="imageWithBorderMazaika" src={`${config.staticUrl}${i.src}`} alt={i.alt} title={i.title} />
+                    <img className="imageWithBorderMazaika" src={`${config.staticUrl}${this.getThumbPath(i.src)}`} alt={i.alt} title={i.title} />
                   </div>
                 );
               })}

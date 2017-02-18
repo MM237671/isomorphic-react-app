@@ -186,7 +186,8 @@
                     "material": "живопись (акварель/пастель)",
                     "material_id": "painting",
                     "zise": "20x27",
-                    "dateCreated": "2008"
+                    "dateCreated": "2008",
+                    "group": "mozaika"
                 },
                 {
                     "id": "Izumrudnye-derev'ia---PilipenkoTonya",
@@ -198,7 +199,8 @@
                     "material": "живопись (акварель/пастель)",
                     "material_id": "painting",
                     "zise": "31x42,2",
-                    "dateCreated": "2012"
+                    "dateCreated": "2012",
+                    "group": "mozaika"
                 },
                 {
                     "id": "Otrazhenie",
@@ -210,7 +212,8 @@
                     "material": "живопись (акварель/пастель)",
                     "material_id": "painting",
                     "zise": "19,3x29,5",
-                    "dateCreated": "2014"
+                    "dateCreated": "2014",
+                    "group": "mozaika"
                 },
                 {
                     "id": "Polovod'e-na-Taruske---PilipenkoTonya",
@@ -222,7 +225,8 @@
                     "material": "живопись (акварель/пастель)",
                     "material_id": "painting",
                     "zise": "25,9x41",
-                    "dateCreated": "февраль 2010"
+                    "dateCreated": "февраль 2010",
+                    "group": "mozaika"
                 }
             ]
         },
@@ -245,7 +249,8 @@
                     "artists_name": "Пилипенко Виктория",
                     "material": "батик (роспись по шелку)",
                     "material_id": "batik",
-                    "zise": ""
+                    "zise": "",
+                    "group": "mozaika"
                 },
                 {
                     "id": "Buket-s-kupal'nitsami",
@@ -256,7 +261,8 @@
                     "artists_name": "Пилипенко Виктория",
                     "material": "батик (роспись по шелку)",
                     "material_id": "batik",
-                    "zise": ""
+                    "zise": "",
+                    "group": "mozaika"
                 },
                 {
                     "id": "Buket-s-anemonami",
@@ -267,7 +273,8 @@
                     "artists_name": "Пилипенко Виктория",
                     "material": "батик (роспись по шелку)",
                     "material_id": "batik",
-                    "zise": ""
+                    "zise": "",
+                    "group": "mozaika"
                 },
                 {
                     "id": "Nezabudki",
@@ -278,7 +285,8 @@
                     "artists_name": "Пилипенко Виктория",
                     "material": "батик (роспись по шелку)",
                     "material_id": "batik",
-                    "zise": ""
+                    "zise": "",
+                    "group": "mozaika"
                 }
             ]
         },
@@ -301,18 +309,8 @@
                     "artists_name": "Пилипенко Сергей",
                     "material": "скульптура (дерево/тонировка)",
                     "material_id": "sculpture",
-                    "zise": ""
-                },
-                {
-                    "id": "V-trave-sidel-kuznechik---komodik",
-                    "src": "/works/sergey/IMG_0986.JPG",
-                    "title": "В траве сидел кузнечик - комодик",
-                    "alt": "Каталог Ремесел, город Таруса, художник скульптор Пилипенко Сергей, скульптура (дерево/тонировка), В траве сидел кузнечик - комодик",
-                    "artists_id": "PilipenkoSergey",
-                    "artists_name": "Пилипенко Сергей",
-                    "material": "скульптура (дерево/тонировка)",
-                    "material_id": "sculpture",
-                    "zise": ""
+                    "zise": "",
+                    "group": "mozaika"
                 },
                 {
                     "id": "Nash-ryzhii-kot-kotoromu-vezet---komodik",
@@ -323,7 +321,20 @@
                     "artists_name": "Пилипенко Сергей",
                     "material": "скульптура (дерево/тонировка)",
                     "material_id": "sculpture",
-                    "zise": ""
+                    "zise": "",
+                    "group": "mozaika"
+                },
+                {
+                    "id": "V-trave-sidel-kuznechik---komodik",
+                    "src": "/works/sergey/IMG_0986.JPG",
+                    "title": "В траве сидел кузнечик - комодик",
+                    "alt": "Каталог Ремесел, город Таруса, художник скульптор Пилипенко Сергей, скульптура (дерево/тонировка), В траве сидел кузнечик - комодик",
+                    "artists_id": "PilipenkoSergey",
+                    "artists_name": "Пилипенко Сергей",
+                    "material": "скульптура (дерево/тонировка)",
+                    "material_id": "sculpture",
+                    "zise": "",
+                    "group": "mozaika"
                 },
                 {
                     "id": "Ogne-grivyi-lev---komodik",
@@ -334,7 +345,8 @@
                     "artists_name": "Пилипенко Сергей",
                     "material": "скульптура (дерево/тонировка)",
                     "material_id": "sculpture",
-                    "zise": ""
+                    "zise": "",
+                    "group": "mozaika"
                 }
             ]
         },
@@ -357,7 +369,8 @@
                     "artists_name": "Ростемберская Галина",
                     "material": "живопись (холст/масло)",
                     "material_id": "painting",
-                    "zise": "33x54"
+                    "zise": "33x54",
+                    "group": "mozaika"
                 },
                 {
                     "id": "Prud",
@@ -368,7 +381,8 @@
                     "artists_name": "Ростемберская Галина",
                     "material": "живопись (холст/масло)",
                     "material_id": "painting",
-                    "zise": ""
+                    "zise": "",
+                    "group": "mozaika"
                 },
                 {
                     "id": "Osen'",
@@ -379,7 +393,8 @@
                     "artists_name": "Ростемберская Галина",
                     "material": "живопись (холст/масло)",
                     "material_id": "painting",
-                    "zise": ""
+                    "zise": "",
+                    "group": "mozaika"
                 },
                 {
                     "id": "Natiurmort-s-astrami",
@@ -390,7 +405,8 @@
                     "artists_name": "Ростемберская Галина",
                     "material": "живопись (холст/масло)",
                     "material_id": "painting",
-                    "zise": ""
+                    "zise": "",
+                    "group": "mozaika"
                 }
             ]
         }
