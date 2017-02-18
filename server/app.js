@@ -42,6 +42,11 @@ app.use((req, res) => {
     } else if (!renderProps) {
       res.status(404).send(page404);
     } else {
+      const host = req.headers.host;
+      if (host.substr(0, 2) === 'en') {
+        initValues.locale.locale = 'en';
+      }
+
       const store = configureStore(initValues);
       const componentHTML = ReactDOM.renderToString(
         <Provider store={store}>
