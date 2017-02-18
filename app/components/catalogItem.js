@@ -59,7 +59,7 @@ class Catalog extends Component {
             <option value="RostemberskayaGalina">{this.loc('Ростемберская Галина')}</option>
           </select>&nbsp;
           <div className="inlineHeader">
-            <h1>«{item.title}»</h1>
+            <h1>«{this.transliterate(item.title)}»</h1>
           </div>
         </div>
         <div className="wrapBlock">
@@ -67,7 +67,7 @@ class Catalog extends Component {
             <div className="info">
               <dl className="dl-horizontal">
                 <dt>{this.loc('Название')}</dt>
-                <dd>{this.loc(item.title)}</dd>
+                <dd>«{this.transliterate(item.title)}»</dd>
                 <dt>{this.loc('Художник')}</dt>
                 <dd>{this.loc(item.artists_name)}</dd>
                 <dt>{this.loc('Материал')}</dt>

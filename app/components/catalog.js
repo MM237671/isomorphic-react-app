@@ -95,14 +95,14 @@ class Catalog extends Component {
             return (
               <div key={key} className="artworkItem">
                 <div className="head">
-                  <Link to={`/catalog/${this.props.params.material}/${this.props.params.artist}/${item.id}`}>«{item.title}»</Link><br />
+                  <Link to={`/catalog/${this.props.params.material}/${this.props.params.artist}/${item.id}`}>«{this.transliterate(item.title)}»</Link><br />
                 </div>
                 <div className="image">
                   <img src={`${config.staticUrl}${this.getThumbPath(item.src)}`} alt={item.alt} title={item.title} />
                 </div>
                 <div className="info">
-                  {item.material}<br />
-                  {item.artists_name}
+                  {this.loc(item.material)}<br />
+                  {this.loc(item.artists_name)}
                 </div>
               </div>
             );
