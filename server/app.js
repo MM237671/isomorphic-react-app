@@ -43,7 +43,7 @@ app.use((req, res) => {
       res.status(404).send(page404);
     } else {
       const host = req.headers.host;
-      if (host.substr(0, 2) === 'en') {
+      if (host.substr(0, 3) === 'en.') {
         initValues.locale.locale = 'en';
         host.substr(3);
       }
