@@ -85,7 +85,9 @@ class Catalog extends Component {
             <option value="RostemberskayaGalina">{this.loc('Ростемберская Галина')}</option>
           </select>
           <div className="inlineHeader">
-          <h1>{`${this.getMaterialHeader(material)} ${this.getArtistHeader(artist)} город Таруса`}</h1>
+            <h1>
+              {`${this.getMaterialHeader(material)} ${this.getArtistHeader(artist)} ${this.loc('город Таруса')}`}
+            </h1>
           </div>
         </div>
         <div className="wrapBlock artworkItems">

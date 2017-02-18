@@ -52,7 +52,7 @@ class MainPage extends Component {
         <div className="wrapBlock maxWidth40">
           <div id="content">
             <h1 className="title">{this.loc('Каталог Ремесел')}</h1>
-            <p>{this.loc('Каталог Ремесел включает')} <Link to="/catalog/material/artist">{this.loc('фотографии работ')}</Link> {this.loc('и информацию о')} <Link to="/exhibition">{this.loc('выставках')}.</Link> {this.loc('Художники работают с различными материалами')}:</p>
+            <p><Link to="/catalog/material/artist">{this.loc('Каталог')}</Link> {this.loc('художников из города Таруса включает')} {this.loc('фотографии работ')} {this.loc('и информацию о')} <Link to="/exhibition">{this.loc('выставках')}.</Link> {this.loc('Художники работают с различными материалами')}:</p>
             <dl className="dl-horizontal">
               <dt><Link to="/artist/PilipenkoViktoriya">{this.loc('Пилипенко Виктория')}</Link></dt>
               <dd>{this.loc('батик (роспись по шелку)')}</dd>
