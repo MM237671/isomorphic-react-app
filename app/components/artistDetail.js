@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react';
 import { connect } from 'react-redux';
+import { Link } from 'react-router';
 import _ from 'lodash';
 
 import Component from './helpers/LocaleComponent';
@@ -33,7 +34,9 @@ class Artists extends Component {
               {groups["mozaika"].map((i, key) => {
                 return (
                   <div key={key} className="mozaikaItemFlex">
-                    <img className="imageWithBorderMazaika" src={`${config.staticUrl}${this.getThumbPath(i.src)}`} alt={i.alt} title={i.title} />
+                    <Link to={`/catalog/material/${item.id}`} title={i.title}>
+                      <img className="imageWithBorderMazaika" src={`${config.staticUrl}${this.getThumbPath(i.src)}`} alt={i.alt} title={i.title} />
+                    </Link>
                   </div>
                 );
               })}
