@@ -42,8 +42,13 @@ app.use((req, res) => {
     } else if (!renderProps) {
       res.status(404).send(page404);
     } else {
-      const host = req.headers.host;
+      let host = req.headers.host;
       initValues.locale.host = host;
+
+      if (host.substr(0, 2) === 'en') {
+        initValues.locale.locale = 'en';
+        host = host.substr(3);
+      }
 
       const store = configureStore(initValues);
       const componentHTML = ReactDOM.renderToString(
@@ -83,6 +88,8 @@ function renderHTML({ componentHTML, initialState, metaInfo, conf, host, origina
           <title>${metaInfo.title}</title>
           <link rel="stylesheet" href='${conf.staticHost}/build/main.css' media="none" onload="if(media!='all')media='all'">
           <noscript><link rel="stylesheet" href='${conf.staticHost}/build/main.css'></noscript>
+          <link rel="alternate" hreflang="ru-ru" href="http://${host}${originalUrl}">
+          <link rel="alternate" hreflang="en-us" href="http://en.${host}${originalUrl}">
       </head>
       <body>
       <div id='app'>${componentHTML}</div>
