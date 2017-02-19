@@ -87,6 +87,20 @@
         "title": "Звездочет",
         "description": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, горячая эмаль / медь, Звездочет"
     },
+    "/catalog/enamel/PilipenkoMihail/Zimnii-gorodok": {
+        "title": "Зимний городок",
+        "description": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, горячая эмаль / медь, Зимний городок"
+    },
+    "/catalog/enamel/PilipenkoMihail/Pervyi-sneg---enamel": {
+        "title": "Первый снег",
+        "description": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, горячая эмаль / медь, Первый снег"
+    },
+    "/catalog/enamel/PilipenkoMihail/Zhenshchina-i-vaza": {
+        "title": "Женщина и ваза",
+        "description": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, горячая эмаль / медь, Женщина и ваза"
+    },
+
+
     "/catalog/painting/PilipenkoMihail/Osennee-utro": {
         "title": "Осеннее утро",
         "description": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, живопись холст/масло, Осеннее утро"
@@ -98,6 +112,34 @@
     "/catalog/painting/PilipenkoMihail/Domik-khudozhnikov-I.Starzhenetskoi-i-A.Kamelina": {
         "title": "Домик художников И.Старженецкой и А.Камелина",
         "description": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, живопись холст/масло, Домик художников И.Старженецкой и А.Камелина"
+    },
+    "/catalog/painting/PilipenkoMihail/Sneg-vypal": {
+        "title": "Снег выпал",
+        "description": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, живопись холст/масло, Снег выпал"
+    },
+    "/catalog/painting/PilipenkoMihail/Zimnie-derev'ia": {
+        "title": "Зимние деревья",
+        "description": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, живопись холст/масло, Зимние деревья"
+    },
+    "/catalog/painting/PilipenkoMihail/Vechereet": {
+        "title": "Вечереет",
+        "description": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, живопись холст/масло, Вечереет"
+    },
+    "/catalog/painting/PilipenkoMihail/Pervyi-sneg": {
+        "title": "Первый снег",
+        "description": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, живопись холст/масло, Первый снег"
+    },
+    "/catalog/painting/PilipenkoMihail/Domiki": {
+        "title": "Домики",
+        "description": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, живопись холст/масло, Домики"
+    },
+    "/catalog/painting/PilipenkoMihail/Domiki-(variant)": {
+        "title": "Домики (вариант)",
+        "description": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, живопись холст/масло, Домики (вариант)"
+    },
+    "/catalog/painting/PilipenkoMihail/Lodki": {
+        "title": "Лодки",
+        "description": "Каталог Ремесел, город Таруса, художник Пилипенко Михаил, живопись холст/масло, Лодки"
     },
 
 
