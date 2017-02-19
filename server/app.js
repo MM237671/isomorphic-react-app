@@ -42,11 +42,14 @@ app.use((req, res) => {
     } else if (!renderProps) {
       res.status(404).send(page404);
     } else {
-      const host = req.headers.host;
+      let host = req.headers.host;
       initValues.locale.host = req.headers.host;
 
       if (host === 'remesel.com') {
         initValues.locale.locale = 'en';
+      } else if (host.substr(0, 2) === 'en') {
+        initValues.locale.locale = 'en';
+        host = host.substr(2);
       } else {
         initValues.locale.locale = 'ru';
       }
@@ -89,8 +92,9 @@ function renderHTML({ componentHTML, initialState, metaInfo, conf, host, origina
           <title>${metaInfo.title}</title>
           <link rel="stylesheet" href='${conf.staticHost}/build/main.css' media="none" onload="if(media!='all')media='all'">
           <noscript><link rel="stylesheet" href='${conf.staticHost}/build/main.css'></noscript>
+          <link rel="alternate" hreflang="x-default" href="http://remesel.ru${originalUrl}">
           <link rel="alternate" hreflang="ru-ru" href="http://remesel.ru${originalUrl}">
-          <link rel="alternate" hreflang="en-us" href="http://remesel.com${originalUrl}">
+          <link rel="alternate" hreflang="en-us" href="http://en.remesel.ru${originalUrl}">
       </head>
       <body>
       <div id='app'>${componentHTML}</div>
