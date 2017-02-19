@@ -48,6 +48,8 @@ app.use((req, res) => {
       if (host.substr(0, 2) === 'en') {
         initValues.locale.locale = 'en';
         host = host.substr(3);
+      } else {
+        initValues.locale.locale = 'ru';
       }
 
       const store = configureStore(initValues);
