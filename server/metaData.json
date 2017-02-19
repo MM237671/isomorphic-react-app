@@ -244,5 +244,37 @@
     "/catalog/painting/RostemberskayaGalina/Podsolnukhi": {
         "title": "Подсолнухи",
         "description": "Каталог Ремесел, город Таруса, художник Ростемберская Галина, живопись (холст/масло), Подсолнухи"
+    },
+    "/catalog/painting/RostemberskayaGalina/Reka-taruska-osenniaia": {
+        "title": "Река таруска осенняя",
+        "description": "Каталог Ремесел, город Таруса, художник Ростемберская Галина, живопись (холст/масло), Река таруска осенняя"
+    },
+    "/catalog/painting/RostemberskayaGalina/Chuvash-Kubovo": {
+        "title": "Чуваш-Кубово",
+        "description": "Каталог Ремесел, город Таруса, художник Ростемберская Галина, живопись (холст/масло), Чуваш-Кубово"
+    },
+    "/catalog/painting/RostemberskayaGalina/Prud": {
+        "title": "Пруд",
+        "description": "Каталог Ремесел, город Таруса, художник Ростемберская Галина, живопись (холст/масло), Пруд"
+    },
+    "/catalog/painting/RostemberskayaGalina/Osen'": {
+        "title": "Осень",
+        "description": "Каталог Ремесел, город Таруса, художник Ростемберская Галина, живопись (холст/масло), Осень"
+    },
+    "/catalog/painting/RostemberskayaGalina/Natiurmort-s-astrami": {
+        "title": "Натюрморт с астрами",
+        "description": "Каталог Ремесел, город Таруса, художник Ростемберская Галина, живопись (холст/масло), Натюрморт с астрами"
+    },
+    "/catalog/painting/RostemberskayaGalina/Piony": {
+        "title": "Пионы",
+        "description": "Каталог Ремесел, город Таруса, художник Ростемберская Галина, живопись (холст/масло), Пионы"
+    },
+    "/catalog/painting/RostemberskayaGalina/Tsvetushchee-derevo": {
+        "title": "Цветущее дерево",
+        "description": "Каталог Ремесел, город Таруса, художник Ростемберская Галина, живопись (холст/масло), Цветущее дерево"
+    },
+    "/catalog/painting/RostemberskayaGalina/Siren'": {
+        "title": "Сирень",
+        "description": "Каталог Ремесел, город Таруса, художник Ростемберская Галина, живопись (холст/масло), Сирень"
     }
 }
