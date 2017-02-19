@@ -212,7 +212,26 @@
         "title": "Отражение",
         "description": "Каталог Ремесел, город Таруса, художник Пилипенко Антонина, живопись (акварель/пастель), Отражение"
     },
-
+    "/catalog/painting/PilipenkoTonya/Polovod'e-na-Taruske---PilipenkoTonya": {
+        "title": "Половодье на Таруске",
+        "description": "Каталог Ремесел, город Таруса, художник Пилипенко Антонина, живопись (акварель/пастель), Половодье на Таруске"
+    },
+    "/catalog/painting/PilipenkoTonya/Svezhii-sneg---PilipenkoTonya": {
+        "title": "Свежий снег",
+        "description": "Каталог Ремесел, город Таруса, художник Пилипенко Антонина, живопись (акварель/пастель), Свежий снег"
+    },
+    "/catalog/painting/PilipenkoTonya/Belye-tsvety---PilipenkoTonya": {
+        "title": "Белые цветы",
+        "description": "Каталог Ремесел, город Таруса, художник Пилипенко Антонина, живопись (акварель/пастель), Белые цветы"
+    },
+    "/catalog/painting/PilipenkoTonya/Iaponskii-natiurmort---PilipenkoTonya": {
+        "title": "Японский натюрморт",
+        "description": "Каталог Ремесел, город Таруса, художник Пилипенко Антонина, живопись (акварель/пастель), Японский натюрморт"
+    },
+    "/catalog/painting/PilipenkoTonya/Tikhii-vecher---PilipenkoTonya": {
+        "title": "Тихий вечер",
+        "description": "Каталог Ремесел, город Таруса, художник Пилипенко Антонина, живопись (акварель/пастель), Тихий вечер"
+    },
 
     "/catalog/painting/RostemberskayaGalina/Verba-tsvetet": {
         "title": "Верба цветет",
