@@ -90,6 +90,11 @@ header .active {color: #a57800 !important;}
   align-items: flex-end;
 }
 
+
+footer { background-color: #eee; }
+footer a { color: #002b36; }
+footer a:hover { color: #a57800; }
+
 /* Middle
 -----------------------------------------------------------------------------*/
 .content {
@@ -145,8 +150,7 @@ header .active {color: #a57800 !important;}
 .contentArtists a:hover { color: #a57800; }
 .contentPlaces a { color: #002b36; }
 .contentPlaces a:hover { color: #a57800; }
-.footer a { color: #002b36; }
-.footer a:hover { color: #a57800; }
+
 
 
 .wrapBlock {
@@ -295,11 +299,6 @@ header .active {color: #a57800 !important;}
   }
 }
 
-
-
-footer a {color: #0088cc !important;}
-footer a:hover {color: #555 !important;}
-footer .active {color: #a57800 !important;}
 
 /* 404 page */
 .content404 {
