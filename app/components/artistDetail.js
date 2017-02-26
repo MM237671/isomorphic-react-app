@@ -51,6 +51,45 @@ class Artists extends Component {
             </div>
           );
         })}
+
+        {item.id === 'PilipenkoMihail' && (
+          <div className="wrapBlock artistListItemText">
+            <h3>{item.long_description_name}</h3>
+            <div dangerouslySetInnerHTML={this.createMarkup(item.long_description)} />
+          </div>
+        )}
+
+        {item.id === 'PilipenkoMihail' && (
+          <div key="plener" className="wrapBlock artistListItem">
+            {(item.long_description_photos || []).map((i, key) => {
+              return (
+                <div key={`${key}`} className="wrapBlock artistListItem">
+                  <img className="imageWithBorder" key={key} src={`${config.staticUrl}${i.src}`} alt={i.alt} title={i.title} />
+                </div>
+              );
+            })}
+          </div>
+        )}
+
+
+        {item.id === 'PilipenkoSergey' && (
+          <div className="wrapBlock artistListItemText">
+            <h3>{item.long_description_name}</h3>
+            <div dangerouslySetInnerHTML={this.createMarkup(item.long_description)} />
+          </div>
+        )}
+
+        {item.id === 'PilipenkoSergey' && (
+          <div key="plener" className="wrapBlock artistListItem">
+            {(item.long_description_photos || []).map((i, key) => {
+              return (
+                <div key={`${key}`} className="wrapBlock artistListItem">
+                  <img className="imageWithBorder" key={key} src={`${config.staticUrl}${i.src}`} alt={i.alt} title={i.title} />
+                </div>
+              );
+            })}
+          </div>
+        )}
       </section>
     );
   }

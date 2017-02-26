@@ -10,10 +10,15 @@ class LocaleComponent extends Component {
     this.loc = this.loc.bind(this);
     this.getThumbPath = this.getThumbPath.bind(this);
     this.transliterate = this.transliterate.bind(this);
+    this.createMarkup = this.createMarkup.bind(this);
   }
 
   getThumbPath(src) {
     return `${src.substring(0, src.length - 4)}.thumbnail.jpg`;
+  }
+
+  createMarkup(src) {
+    return { __html: src };
   }
 
   transliterate(word) {
