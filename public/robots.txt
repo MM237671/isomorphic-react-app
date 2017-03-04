@@ -3,9 +3,7 @@ sitemap: http://remesel.ru/sitemap.xml
 
 User-agent: Yandex
 Allow: /
-Disallow: /artist$
 
 User-agent: Googlebot
 Allow: /
-Disallow: /artist$
 

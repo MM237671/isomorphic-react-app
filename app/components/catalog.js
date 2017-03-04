@@ -93,14 +93,14 @@ class Catalog extends Component {
         <div className="wrapBlock artworkItems">
           {artworks.map((item, key) => {
             return (
-              <div key={key} className="artworkItem">
+              <div key={key} itemScope itemType="http://schema.org/Product" className="artworkItem">
                 <div className="head">
-                  <Link to={`/catalog/${this.props.params.material}/${this.props.params.artist}/${item.id}`}>«{this.transliterate(item.title)}»</Link><br />
+                  <Link itemProp="url" to={`/catalog/${this.props.params.material}/${this.props.params.artist}/${item.id}`}>«{this.transliterate(item.title)}»</Link><br />
                 </div>
                 <div className="image">
-                  <img src={`${config.staticUrl}${this.getThumbPath(item.src)}`} alt={item.alt} title={item.title} />
+                  <img itemProp="image" src={`${config.staticUrl}${this.getThumbPath(item.src)}`} alt={item.alt} title={item.title} />
                 </div>
-                <div className="info">
+                <div itemProp="description" className="info">
                   {this.loc(item.material)}<br />
                   {this.loc(item.artists_name)}
                 </div>

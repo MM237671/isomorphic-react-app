@@ -12,19 +12,21 @@ class Exhibition extends Component {
       <section className="contentExhibition">
         {this.props.exhibitions.map((item, key) => {
           return (
-            <div key={key} className="wrapBlock exhibitionListItem">
-              <Link className="headerDetailLink" to={`/exhibition/${item.id}`}>
+            <div key={key} itemScope itemType="http://schema.org/Event" className="wrapBlock exhibitionListItem">
+              <Link itemProp="url" className="headerDetailLink" to={`/exhibition/${item.id}`}>
                 <h1>{this.loc(item.name)}<br /><small>{this.loc(item.description)}</small></h1>
               </Link>
               {item.photo !== undefined && (
 
-                <img className="TextWrapLeft" width="200" src={`${config.staticUrl}${item.photo.src}`} alt={item.photo.alt} title={item.photo.title} />
+                <img itemProp="image" className="TextWrapLeft" width="200" src={`${config.staticUrl}${item.photo.src}`} alt={item.photo.alt} title={item.photo.title} />
               )}
               <address className="address">
-                <span>{item.from}</span>&nbsp;-&nbsp;<span>{item.to}</span><br />
-                <span>{this.loc(item.address)}</span>
+                <span itemProp="startDate" content={item.from}>{item.from}</span>&nbsp;-&nbsp;<span itemProp="endDate" content={item.to}>{item.to}</span><br />
+                <span itemProp="location" itemScope itemType="http://schema.org/Place">
+                  <span itemProp="name">{this.loc(item.address)}</span>
+                </span>
               </address>
-              <ul>
+              <ul itemProp="description">
                 <li><i>{this.loc('Участники')}:</i> {item.artists.split(', ').map(artist => this.loc(artist)).join(', ')}</li>
                 <li><i>{this.loc('Техники')}:</i> {item.materials.split(', ').map(material => this.loc(material)).join(', ')}</li>
               </ul>
