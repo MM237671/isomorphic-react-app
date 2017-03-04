@@ -45,9 +45,7 @@ app.use((req, res) => {
       let host = req.headers.host;
       initValues.locale.host = req.headers.host;
 
-      if (host === 'remesel.com') {
-        initValues.locale.locale = 'en';
-      } else if (host.substr(0, 2) === 'en') {
+      if (host.substr(0, 2) === 'en') {
         initValues.locale.locale = 'en';
         host = host.substr(2);
       } else {
