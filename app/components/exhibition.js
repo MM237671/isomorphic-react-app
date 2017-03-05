@@ -23,7 +23,9 @@ class Exhibition extends Component {
               <address className="address">
                 <span itemProp="startDate" content={item.from}>{item.from}</span>&nbsp;-&nbsp;<span itemProp="endDate" content={item.to}>{item.to}</span><br />
                 <span itemProp="location" itemScope itemType="http://schema.org/Place">
-                  <span itemProp="name">{this.loc(item.address)}</span>
+                  <span itemProp="address">{this.loc(item.address)}</span>,&nbsp;
+                  <span itemProp="name">{this.loc(item.address_name)}</span>,&nbsp;
+                  <span itemProp="telephone">{this.loc(item.phone)}</span>
                 </span>
               </address>
               <ul itemProp="description">
