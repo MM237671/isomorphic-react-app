@@ -7,10 +7,6 @@ import Component from './helpers/LocaleComponent';
 import config from '../../config';
 
 class Artists extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const slug = this.props.params.id;
     const item = this.props.artists.filter((value) => (
@@ -25,32 +21,47 @@ class Artists extends Component {
           <h1>{this.loc(item.name)}</h1>
           <br />
           <i>{this.loc(item.materials)}</i>
-          <img className="TextWrapLeft" width="100" src={`${config.staticUrl}${item.photo.src}`} alt={item.photo.title} title={item.photo.title} />
+          <img
+            className="TextWrapLeft"
+            width="100"
+            src={`${config.staticUrl}${item.photo.src}`}
+            alt={item.photo.title}
+            title={item.photo.title}
+          />
           <p>{this.loc(item.description)}</p>
         </div>
-        {groups['mozaika'] !== undefined && (
-          <div key='mozaika' className="wrapBlock artistListItem">
+        {groups.mozaika !== undefined && (
+          <div key="mozaika" className="wrapBlock artistListItem">
             <div className="mozaikaFlex">
-              {groups["mozaika"].map((i, key) => {
-                return (
-                  <div key={key} className="mozaikaItemFlex">
-                    <Link to={`/catalog/material/${item.id}`} title={i.title}>
-                      <img className="imageWithBorderMazaika" src={`${config.staticUrl}${this.getThumbPath(i.src)}`} alt={i.alt} title={i.title} />
-                    </Link>
-                  </div>
-                );
-              })}
+              {groups.mozaika.map((i, key) => (
+                <div key={key} className="mozaikaItemFlex">
+                  <Link to={`/catalog/material/${item.id}`} title={i.title}>
+                    <img
+                      className="imageWithBorderMazaika"
+                      src={`${config.staticUrl}${this.getThumbPath(i.src)}`}
+                      alt={i.alt}
+                      title={i.title}
+                    />
+                  </Link>
+                </div>
+              )
+              )}
             </div>
           </div>
 
         )}
-        {(groups[undefined] || []).map((i, key) => {
-          return (
-            <div key={`${key}`} className="wrapBlock artistListItem">
-              <img className="imageWithBorder" key={key} src={`${config.staticUrl}${i.src}`} alt={i.alt} title={i.title} />
-            </div>
-          );
-        })}
+        {(groups[undefined] || []).map((i, key) => (
+          <div key={`${key}`} className="wrapBlock artistListItem">
+            <img
+              className="imageWithBorder"
+              key={key}
+              src={`${config.staticUrl}${i.src}`}
+              alt={i.alt}
+              title={i.title}
+            />
+          </div>
+        )
+        )}
 
         {item.id === 'PilipenkoMihail' && (
           <div className="wrapBlock artistListItemText">
@@ -61,13 +72,18 @@ class Artists extends Component {
 
         {item.id === 'PilipenkoMihail' && (
           <div key="plener" className="wrapBlock artistListItem">
-            {(item.long_description_photos || []).map((i, key) => {
-              return (
-                <div key={`${key}`} className="wrapBlock artistListItem">
-                  <img className="imageWithBorder" key={key} src={`${config.staticUrl}${i.src}`} alt={i.alt} title={i.title} />
-                </div>
-              );
-            })}
+            {(item.long_description_photos || []).map((i, key) => (
+              <div key={`${key}`} className="wrapBlock artistListItem">
+                <img
+                  className="imageWithBorder"
+                  key={key}
+                  src={`${config.staticUrl}${i.src}`}
+                  alt={i.alt}
+                  title={i.title}
+                />
+              </div>
+            )
+            )}
           </div>
         )}
 
@@ -81,13 +97,18 @@ class Artists extends Component {
 
         {item.id === 'PilipenkoSergey' && (
           <div key="plener" className="wrapBlock artistListItem">
-            {(item.long_description_photos || []).map((i, key) => {
-              return (
-                <div key={`${key}`} className="wrapBlock artistListItem">
-                  <img className="imageWithBorder" key={key} src={`${config.staticUrl}${i.src}`} alt={i.alt} title={i.title} />
-                </div>
-              );
-            })}
+            {(item.long_description_photos || []).map((i, key) => (
+              <div key={`${key}`} className="wrapBlock artistListItem">
+                <img
+                  className="imageWithBorder"
+                  key={key}
+                  src={`${config.staticUrl}${i.src}`}
+                  alt={i.alt}
+                  title={i.title}
+                />
+              </div>
+            )
+            )}
           </div>
         )}
       </section>

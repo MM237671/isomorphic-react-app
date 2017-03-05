@@ -6,9 +6,6 @@ import Component from './helpers/LocaleComponent';
 import config from '../../config';
 
 class MainPage extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   render() {
     return (

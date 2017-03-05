@@ -17,14 +17,6 @@ class Catalog extends Component {
     this.getMaterialHeader = this.getMaterialHeader.bind(this);
   }
 
-  changeArtist(e) {
-    browserHistory.push(`/catalog/${this.props.params.material}/${e.target.value}`);
-  }
-
-  changeMaterial(e) {
-    browserHistory.push(`/catalog/${e.target.value}/${this.props.params.artist}`);
-  }
-
   getThumbPath(src) {
     return `${src.substring(0, src.length - 4)}.thumbnail.jpg`;
   }
@@ -43,6 +35,14 @@ class Catalog extends Component {
       header = this.loc(material);
     }
     return header;
+  }
+
+  changeMaterial(e) {
+    browserHistory.push(`/catalog/${e.target.value}/${this.props.params.artist}`);
+  }
+
+  changeArtist(e) {
+    browserHistory.push(`/catalog/${this.props.params.material}/${e.target.value}`);
   }
 
   render() {
@@ -67,8 +67,14 @@ class Catalog extends Component {
     return (
       <section className="contentCatalog">
         <div className="wrapBlock breadcramb">
-          <Link to={`/catalog/${this.props.params.material}/${this.props.params.artist}`}>{this.loc('Все работы')}</Link>&nbsp;
-          <select onChange={this.changeMaterial} value={this.props.params.material} className="catalog-select">
+          <Link
+            to={`/catalog/${this.props.params.material}/${this.props.params.artist}`}
+          >{this.loc('Все работы')}</Link>&nbsp;
+          <select
+            onChange={this.changeMaterial}
+            value={this.props.params.material}
+            className="catalog-select"
+          >
             <option value="material">{this.loc('Все материалы')}</option>
             <option value="painting">{this.loc('Живопись')}</option>
             <option value="enamel">{this.loc('Эмаль')}</option>
@@ -76,7 +82,11 @@ class Catalog extends Component {
             <option value="sculpture">{this.loc('Скульптура')}</option>
             <option value="graphic">{this.loc('Графика')}</option>
           </select>&nbsp;
-          <select onChange={this.changeArtist} value={this.props.params.artist} className="catalog-select">
+          <select
+            onChange={this.changeArtist}
+            value={this.props.params.artist}
+            className="catalog-select"
+          >
             <option value="artist">{this.loc('Все художники')}</option>
             <option value="PilipenkoMihail">{this.loc('Пилипенко Михаил')}</option>
             <option value="PilipenkoTonya">{this.loc('Пилипенко Антонина')}</option>
@@ -95,10 +105,20 @@ class Catalog extends Component {
             return (
               <div key={key} itemScope itemType="http://schema.org/Product" className="artworkItem">
                 <div className="head">
-                  <Link itemProp="url" to={`/catalog/${this.props.params.material}/${this.props.params.artist}/${item.id}`}>«{this.transliterate(item.title)}»</Link><br />
+                  <Link
+                    itemProp="url"
+                    to={`/catalog/${this.props.params.material}/${this.props.params.artist}/${item.id}`}
+                  >
+                    «{this.transliterate(item.title)}»
+                  </Link><br />
                 </div>
                 <div className="image">
-                  <img itemProp="image" src={`${config.staticUrl}${this.getThumbPath(item.src)}`} alt={item.alt} title={item.title} />
+                  <img
+                    itemProp="image"
+                    src={`${config.staticUrl}${this.getThumbPath(item.src)}`}
+                    alt={item.alt}
+                    title={item.title}
+                  />
                 </div>
                 <div itemProp="description" className="info">
                   {this.loc(item.material)}<br />
