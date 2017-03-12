@@ -87,6 +87,27 @@ class Artists extends Component {
           </div>
         )}
 
+        {item.id === 'PilipenkoTonya' && (
+          <div className="wrapBlock artistListItemText">
+            <h3>{item.long_description_name}</h3>
+            <div dangerouslySetInnerHTML={this.createMarkup(item.long_description)} />
+          </div>
+        )}
+
+        {item.id === 'PilipenkoViktoriya' && (
+          <div className="wrapBlock artistListItemText">
+            <h3>{item.long_description_name}</h3>
+            <div dangerouslySetInnerHTML={this.createMarkup(item.long_description)} />
+          </div>
+        )}
+
+        {item.id === 'RostemberskayaGalina' && (
+          <div className="wrapBlock artistListItemText">
+            <h3>{item.long_description_name}</h3>
+            <div dangerouslySetInnerHTML={this.createMarkup(item.long_description)} />
+          </div>
+        )}
+
 
         {item.id === 'PilipenkoSergey' && (
           <div className="wrapBlock artistListItemText">
