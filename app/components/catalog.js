@@ -109,7 +109,7 @@ class Catalog extends Component {
                     itemProp="url"
                     to={`/catalog/${this.props.params.material}/${this.props.params.artist}/${item.id}`}
                   >
-                    «{this.transliterate(item.title)}»
+                    <span itemProp="name">«{this.transliterate(item.title)}»</span>
                   </Link><br />
                 </div>
                 <div className="image">
