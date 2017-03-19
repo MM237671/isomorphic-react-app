@@ -10,8 +10,8 @@ class Contacts extends Component {
         <div className="wrapBlock artistListItemText">
           <h1>{this.loc('Контакты')}</h1><br />
           <dl>
-            <dt>{this.loc('Пилипенко Михаил')} (instagram):</dt>
-            <dd>instagram: <a href="https://instagram.com/m.remesel.ru" target="_blank">@m.remesel.ru</a><br />email: <a href="mailto:medvedb24@yandex.ru">medvedb24@yandex.ru</a></dd>
+            <dt>{this.loc('Пилипенко Михаил')}:</dt>
+            <dd>email: <a href="mailto:medvedb24@yandex.ru">medvedb24@yandex.ru</a></dd>
             <dt>{this.loc('Пилипенко Сергей')}:</dt>
             <dd>instagram: <a href="https://instagram.com/sergey.remesel.ru" target="_blank">@sergey.remesel.ru</a><br />email: <a href="mailto:sergey.n.pilipenko@gmail.com">sergey.n.pilipenko@gmail.com</a></dd>
             <dt>{this.loc('Пилипенко Виктория')}:</dt>
