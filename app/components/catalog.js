@@ -76,11 +76,31 @@ class Catalog extends Component {
             className="catalog-select"
           >
             <option value="material">{this.loc('Все материалы')}</option>
-            <option value="painting">{this.loc('Живопись')}</option>
-            <option value="enamel">{this.loc('Эмаль')}</option>
-            <option value="batik">{this.loc('Батик')}</option>
-            <option value="sculpture">{this.loc('Скульптура')}</option>
-            <option value="graphic">{this.loc('Графика')}</option>
+            {
+              ['artist', 'PilipenkoMihail', 'PilipenkoTonya', 'RostemberskayaGalina'
+              ].indexOf(
+                this.props.params.artist
+              ) > -1 && <option value="painting">{this.loc('Живопись')}</option>}
+            {
+              ['artist', 'PilipenkoMihail'
+              ].indexOf(
+                this.props.params.artist
+              ) > -1 && <option value="enamel">{this.loc('Эмаль')}</option>}
+            {
+              ['artist', 'PilipenkoViktoriya'
+              ].indexOf(
+                this.props.params.artist
+              ) > -1 && <option value="batik">{this.loc('Батик')}</option>}
+            {
+              ['artist', 'PilipenkoSergey'
+              ].indexOf(
+                this.props.params.artist
+              ) > -1 && <option value="sculpture">{this.loc('Скульптура')}</option>}
+            {
+              ['artist', 'PilipenkoSergey'
+              ].indexOf(
+                this.props.params.artist
+              ) > -1 && <option value="graphic">{this.loc('Графика')}</option>}
           </select>&nbsp;
           <select
             onChange={this.changeArtist}
@@ -88,11 +108,33 @@ class Catalog extends Component {
             className="catalog-select"
           >
             <option value="artist">{this.loc('Все художники')}</option>
-            <option value="PilipenkoMihail">{this.loc('Пилипенко Михаил')}</option>
-            <option value="PilipenkoTonya">{this.loc('Пилипенко Антонина')}</option>
-            <option value="PilipenkoViktoriya">{this.loc('Пилипенко Виктория')}</option>
-            <option value="PilipenkoSergey">{this.loc('Пилипенко Сергей')}</option>
-            <option value="RostemberskayaGalina">{this.loc('Ростемберская Галина')}</option>
+            {
+              ['material', 'painting', 'enamel'
+              ].indexOf(
+                this.props.params.material
+              ) > -1 && <option value="PilipenkoMihail">{this.loc('Пилипенко Михаил')}</option>}
+            {
+              ['material', 'painting'
+              ].indexOf(
+                this.props.params.material
+              ) > -1 && <option value="PilipenkoTonya">{this.loc('Пилипенко Антонина')}</option>}
+            {
+              ['material', 'batik'
+              ].indexOf(
+                this.props.params.material
+              ) > -1 && <option value="PilipenkoViktoriya">
+              {this.loc('Пилипенко Виктория')}</option>}
+            {
+              ['material', 'sculpture', 'graphic'
+              ].indexOf(
+                this.props.params.material
+              ) > -1 && <option value="PilipenkoSergey">{this.loc('Пилипенко Сергей')}</option>}
+            {
+              ['material', 'painting'
+              ].indexOf(
+                this.props.params.material
+              ) > -1 && <option value="RostemberskayaGalina">
+                {this.loc('Ростемберская Галина')}</option>}
           </select>
           <div className="inlineHeader">
             <h1>
