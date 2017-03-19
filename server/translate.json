@@ -13,7 +13,7 @@
             "en": "Artists"
         },
         "Выставки": {
-            "en": "Fairs"
+            "en": "Exhibitions"
         },
         "Места": {
             "en": "Places"
@@ -38,10 +38,10 @@
             "en": "Pilipenko Michail"
         },
         "Пилипенко Сергей": {
-            "en": "Pilipenko Sergey"
+            "en": "Pilipenko Sergei"
         },
         "Пилипенко Виктория": {
-            "en": "Pilipenko Viktoriya"
+            "en": "Pilipenko Viktoria"
         },
         "Пилипенко Антонина": {
             "en": "Pilipenko Antonina"
@@ -52,15 +52,15 @@
 
 
         "PilipenkoMihail": {
-            "en": "Pilipenko Michail",
+            "en": "Pilipenko Mikhail",
             "ru": "Пилипенко Михаил"
         },
         "PilipenkoSergey": {
-            "en": "Pilipenko Sergey",
+            "en": "Pilipenko Sergei",
             "ru": "Пилипенко Сергей"
         },
         "PilipenkoViktoriya": {
-            "en": "Pilipenko Viktoriya",
+            "en": "Pilipenko Viktoria",
             "ru": "Пилипенко Виктория"
         },
         "PilipenkoTonya": {
@@ -89,7 +89,7 @@
             "ru": "Скульптура"
         },
         "graphic": {
-            "en": "Graphic",
+            "en": "Graphics",
             "ru": "Графика"
         },
 
@@ -129,23 +129,23 @@
             "en": "and info about"
         },
         "выставках": {
-            "en": "art fairs"
+            "en": "exhibitions"
         },
         "Каталог": {
             "en": "Catalog"
         },
         "художников из города Таруса включает": {
-            "en": "artists from Tarusa includes"
+            "en": "of artists from Tarusa includes"
         },
 
         "Все они живут и работают в городе Тарусе Калужской области. Место это не то чтобы знаменитое, но отмечено любовью таких людей как Марина Цветаева, Константин Паустовский, Святослав Рихтер и других деятелей искусства.": {
-            "en": "They live and work at Tarusa (Kaluga region). The town is famous, that there lived Marina Tsvetaeva, Paustovsky, Sviatoslav Richter and many other poets and artists."
+            "en": "They  all live and work in Tarusa (Kaluga region). The town is famous for such names as Marina Tsvetaeva, Konstantin Paustovsky, Sviatoslav Richter and many other poets and artists, musicians and writers, who lived here."
         },
         "По поводу любых интересующих вас вопросов вы можете обращаться по электронной почте": {
-            "en": "With any questions you could send message to email"
+            "en": "For more information, please , address us at"
         },
         "или писать в": {
-            "en": "and to"
+            "en": "or"
         },
         "Вы так же можете посетить": {
             "en": "Also you could visit"
@@ -154,10 +154,7 @@
             "en": "salons and galleries"
         },
         "где находится художественные работы": {
-            "en": "where you could find the artwork"
-        },
-        "Приятного просмотра": {
-            "en": "Enjoy watching"
+            "en": "where you can view the following artworks"
         },
 
 
@@ -165,19 +162,19 @@
             "en": "painting (canvas/oil), hot enamel / copper"
         },
         "Родился 24 июня 1986г. в Тарусе в семье художников. В 2006г. закончил Абрамцевский художественно-промышленный колледж им. В. М. Васнецова. Факультет художественной обработки металла. Живет и работает в Тарусе. Занимается живописью и горячей эмалью. Участвует в профессиональных выставках, работы находятся в частных коллекциях в России и за рубежом. Член Союза Художников России с 2015 г.": {
-            "en": "He was born in 1986 in the town of Tarusa in artist's family. He graduated from Abramtsevo Art and Industrial College named after V. M. Vasnetsov in 2006. The faculty of artistic metal processing. He lives and works at Tarusa. He works as with painting as with hot enamel/copper. He participates in professional exhibitions, works are in private collections in Russia and abroad. Member of the Union of Artists of Russia in 2015."
+            "en": "The artist was born in 1986 in the town of Tarusa into the family of artist. He graduated from the Abramtsevo Art and Industrial College named after V. M. Vasnetsov in 2006, the faculty of artistic metal processing. He lives and works in Tarusa. He does both painting and hot enamel/copper. He participates in professional exhibitions, a number of his works are in private collections in Russia and abroad. He is a Member of the Union of Artists of Russia since 2015."
         },
         "Родилась в 1985 г. в городе Сысерть Свердловской области. С 1988 живет в  городе Таруса. В 2008 – окончила Ярославское художественное училище. В 2014 – окончила Православный Свято-Тихоновский  гуманитарный  университет, факультет Церковных художеств (кафедра иконописи). Первая выставка прошла в 2008 году – «20 лет с Тарусой»": {
-            "en": "She was born in 1985 in the towm of Sysert, Sverdlovsk region. Since 1988 she lives in Tarusa. In 2008 she graduated from the Yaroslavl Art School. In 2014 she graduated from Saint Tikhon's Orthodox University, Faculty of Arts of the Church (Department of iconography). «20 years from Tarusa» - The first exhibition of 2008"
+            "en": "She was born in 1985 in the town of Sysert, Sverdlovsk region. Since 1988 she lives in Tarusa. In 2008 she graduated from the Yaroslavl Art School. In 2014 she graduated from the Saint Tikhon's Orthodox University, Faculty of Arts of the Church (Department of iconography). «20 years with Tarusa» - The first exhibition washed in 2008"
         },
         "Родилась в 1966г. в г. Уфе. Закончила АХПК им.В.М. Васнецова в 1986г. Отделение художественной обработки дерева, камня, кости. После окончания преподавала в художественном лицее г.Таруса с1988-2004г. Батиком занимается с 1997г. Основные выставки: 1989-2015-ежегодная выставка тарусских художников г.Таруса. 1997 - выставка тарусских художников, выставочный зал Беляево г.Москва. 2006-выставка прикладного искусства выставочный зал Богородское г. Москва.2003-2012- ежегодная выставка им. Афанасия Куликова": {
-            "en": "She was born in 1966 in the city of Ufa. She graduated from Abramtsevo Art and Industrial College named after V. M. Vasnetsov in 1986. The faculty of artistic wood processing. She taught at the Lycée Tarusa from 1988 to 2004. She began to use batik 1997. Major art fairs and exhibitions: 1989-2015, The annual exhibition of artists from Tarusa. 1997 - Exhibition of Artists from Tarusa exhibition hall Belyayevo, Moscow. 2006 - Exhibition of arts and crafts exhibition hall, the Bogorodskoe Moscow. 2003-2012 The annual exhibition named by Athanasius Kulikova."
+            "en": "She was born in 1966 in the city of Ufa. She graduated from the Abramtsevo Art and Industrial College named after V. M. Vasnetsov in 1986, the faculty of artistic wood processing. After graduation she worked as a teacher at the Tarusa Lycée. She began to use batik since 1997. Her major art fairs and exhibitions: The annual exhibition of artists from Tarusa in 1989-2015. Exhibition of Artists from Tarusa at the Belyayevo exhibition hall, Moscow in 1997. 2006. Exhibition of arts and at the crafts Bogorodskoye exhibition hall, Moscow in 1997. The annual exhibition named after Athanasius Kulikov in 2003-2012."
         },
         "Родился в 1964г. в г. Ликино-Дулёво Московской обл. 1985г. Закончил АХПК им. В.М. Васнецова (отделение художественной обработки камня, дерева, кости). Работал на экспериментальном заводе нхп в городе Таруса  лаборатория художественной обработки камня. Преподавал в тарусском лицее. Занимается деревянной скульптурой,оформлением интерьеров. Участник городских, областных, зональных, всероссийских выставок. Член СХР с 2015 г. Работы находятся в частных собраниях России и за рубежом(Италия, США, Канада, Япония, Швейцария).": {
-            "en": "He was born in 1964. in Likino-Dulevo, Moscow region. He graduated from Abramtsevo Art and Industrial College named after V. M. Vasnetsov in 1986. The faculty of artistic stone processing. He worked at a pilot plant in the town of Tarusa, Lab art stone processing. He taught at the Lycée Tarusa. Engaged in wood sculpture, interior design. He is a participant of city, regional, zonal, national exhibitions. Member of the Union of Artists of Russia from 2015. His artworks are in private collections in Russia and abroad (Italy, USA, Canada, Japan, Switzerland)."
+            "en": "He was born in 1964 in the town of Likino-Dulevo, Moscow region. He graduated from the Abramtsevo Art and Industrial College named after V. M. Vasnetsov in 1986, the faculty of artistic stone processing. He worked at the Tarusa arts crafts pilot plant the art stone processing. He worked as a teacher at the Tarusa Lycée. He is engaged in wood sculpture and interior design. He is a participant of city, regional, zonal and national exhibitions. He is a member of the Union of Artists of Russia since 2015. His artworks are in private collections in Russia and abroad (Italy, the US, Canada, Japan, Switzerland)."
         },
         "Родилась в Башкирии в январе 23. С двух лет проживала в г. Уфе. Живопись любила с детства. Окончила Уфимский Авиационный техникум 1956 г. Работала в конструкторском бюро. В то время ходила в ИЗО студию под руководством Геннадия Васильевича Огородова. В г. Таруса проживает с 1995 г.": {
-            "en": "She was born in Bashkiria in January 23. With two years he lived in the city of Ufa. Painting love since childhood. She graduated from the Ufa State Aviation Technical School in 1956 worked in the design office. At that time, she went to the Fine Arts Studio under the leadership of Gennady Ogorodova. In Tarusa lives since 1995."
+            "en": "She was born in Bashkiria in January 1923. She lived in the city of Ufa. She loves painting since childhood. She graduated from the Ufa State Aviation Technical School in 1956. She worked at a design office ans studied at the Fine Arts Studio under the leadership of Gennady Ogorodov. In Trusa she stays since 1995."
         },
         "Фотографии работ": {
             "en": "Artworks photos"
@@ -256,38 +253,38 @@
             "en": "Place"
         },
         "Дата создания": {
-            "en": "Date created"
+            "en": "Date of creation"
         },
         "Размер": {
-            "en": "Size"
+            "en": "Dimensions"
         },
 
         "Муниципальное бюджетное учреждение культуры «Дом Мастеров»": {
-            "en": "Municipal budgetary institution of culture «Dom Masterov»"
+            "en": "The «Dom Masterov», Municipal budgetary institution of culture"
         },
         "Приглашаем на выставку мастеров из Тарусы": {
-            "en": "We invite you to The exhibition of artists from Tarusa"
+            "en": "We invite you to an exhibition of Tarusa artists"
         },
         "Семейные ритмы художников Пилипенко": {
-            "en": "Exhibition Pilipenko family of artists"
+            "en": "Family rhythms of the Pilipenko artists"
         },
         "Художественные династии России": {
-            "en": "Artistic Russian dynasty"
+            "en": "Artistic dynasties of Russian"
         },
         "Семья Художников Ростемберских - Пилипенко": {
             "en": "Artists Family Rostemberskiy - Pilipenko"
         },
         "Выставка памяти Владимира Чупруна": {
-            "en": "Exhibition by Memory of Vladimir Chuprun"
+            "en": "Exhibition to commemorize Vladimir Chuprun"
         },
         "Галерея Дома музыки": {
-            "en": "Gallery House of Music"
+            "en": "The House of Music Gallery"
         },
         "Государственный Мемориальный Историко-Художественный и Природный Музей-Заповедник В.Д.Поленова": {
             "en": "State Memorial History, Art and Natural Museum-Reserve V.D. Polenov."
         },
         "29 апреля в галерее Калужского Дома музыки открылась выставка деревянных скульптур «Дерево 3D», посвящённая памяти известного скульптора, члена Союза художников России Владимира Чупруна. В экспозиции представлены работы авторов из Калуги, Тулы и Тарусы": {
-            "en": "April 29th at Kaluga, Gallery House of Music the exhibition of wooden sculptures «Derevo 3D« by Memory of Vladimir Chuprun, famous sculptor. The exhibition presents artworks of authors from Kaluga, Tula and Tarusa"
+            "en": "On April 29, the 3D Wood» exhibition of wooden sculptures commemorizing famous sculptor Chuprun Vladimir opened at the Kaluga Music House. The exhibition presents artworks of authors from Kaluga, Tula and Tarusa"
         },
         "Столяров Евгений": {
             "en": "Stolyarov Evgeny"
