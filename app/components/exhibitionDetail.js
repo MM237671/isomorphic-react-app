@@ -27,6 +27,9 @@ class ExhibitionDetail extends Component {
             <li><i>{this.loc('Участники')}:</i> {item.artists.split(', ').map(artist => this.loc(artist)).join(', ')}</li>
             <li><i>{this.loc('Техники')}:</i> {item.materials.split(', ').map(material => this.loc(material)).join(', ')}</li>
           </ul>
+          {item.long_description !== undefined && (
+            <p>{item.long_description}</p>
+          )}
           <div className="clear"></div>
           <div><i>{this.loc('Фото некоторых работ')}:</i>
             <div>
